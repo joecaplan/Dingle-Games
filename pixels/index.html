@@ -437,6 +437,7 @@
 
   <script>
     const PIXEL_SIZES   = [243, 81, 27, 9];
+    const CONTENT_BASE  = 'https://raw.githubusercontent.com/joecaplan/Dingle-Games/main/pixels/';
     const ANIM_DURATION = 750;
 
     // ─── DOM refs ─────────────────────────────────────────────────────────────
@@ -655,7 +656,7 @@
       currentAnswers = all;
       currentCorrectIndex = all.indexOf(entry.answer);
 
-      img.src = entry.imageSrc;
+      img.src = CONTENT_BASE + entry.imageSrc;
     }
 
     backBtn.addEventListener('click', () => {
@@ -673,7 +674,7 @@
       currentAnswers = all;
       currentCorrectIndex = all.indexOf(entry.answer);
 
-      img.src = entry.imageSrc;
+      img.src = CONTENT_BASE + entry.imageSrc;
       const todayState = loadState(currentDateKey, false);
       if (getPastKeys().length > 0 && todayState && (todayState.won || todayState.lost)) {
         openArchiveBtn.classList.add('visible');
@@ -979,7 +980,7 @@
 
     // ─── Bootstrap ────────────────────────────────────────────────────────────
 
-    fetch('schedule.json')
+    fetch(CONTENT_BASE + 'schedule.json')
       .then(r => r.json())
       .then(schedule => {
         fullSchedule = schedule;
@@ -1002,7 +1003,7 @@
           shuffle(all);
           currentAnswers = all;
           currentCorrectIndex = all.indexOf(entry.answer);
-          img.src = entry.imageSrc;
+          img.src = CONTENT_BASE + entry.imageSrc;
         }
 
         const todayState = loadState(key, false);
