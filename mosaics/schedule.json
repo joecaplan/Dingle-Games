@@ -1,0 +1,7982 @@
+{
+  "2026-03-02": {
+    "type": "mosaic",
+    "equation": "(pink − teal)(blue + purple)",
+    "quadrants": [
+      {
+        "color": "#9b5de5",
+        "label": "purple",
+        "value": 6
+      },
+      {
+        "color": "#f15bb5",
+        "label": "pink",
+        "value": 9
+      },
+      {
+        "color": "#00f5d4",
+        "label": "teal",
+        "value": 3
+      },
+      {
+        "color": "#00bbf9",
+        "label": "blue",
+        "value": 7
+      }
+    ],
+    "answer": "78",
+    "decoys": [
+      "-78",
+      "13",
+      "6",
+      "52",
+      "91",
+      "65",
+      "84",
+      "70",
+      "60"
+    ]
+  },
+  "2026-03-03": {
+    "type": "mosaic",
+    "equation": "fuchsia × aqua − jet × volt",
+    "quadrants": [
+      {
+        "color": "#0c0f0a",
+        "label": "jet",
+        "value": 4
+      },
+      {
+        "color": "#ff206e",
+        "label": "fuchsia",
+        "value": 8
+      },
+      {
+        "color": "#fbff12",
+        "label": "volt",
+        "value": 2
+      },
+      {
+        "color": "#41ead4",
+        "label": "aqua",
+        "value": 5
+      }
+    ],
+    "answer": "32",
+    "decoys": [
+      "-32",
+      "40",
+      "8",
+      "20",
+      "10",
+      "48",
+      "44",
+      "24",
+      "36"
+    ]
+  },
+  "2026-03-04": {
+    "type": "mosaic",
+    "equation": "(sky + gold) × rose − peach",
+    "quadrants": [
+      {
+        "color": "#70d6ff",
+        "label": "sky",
+        "value": 7
+      },
+      {
+        "color": "#ff70a6",
+        "label": "rose",
+        "value": 3
+      },
+      {
+        "color": "#ff9770",
+        "label": "peach",
+        "value": 9
+      },
+      {
+        "color": "#ffd670",
+        "label": "gold",
+        "value": 5
+      }
+    ],
+    "answer": "27",
+    "decoys": [
+      "-27",
+      "36",
+      "9",
+      "3",
+      "45",
+      "21",
+      "12",
+      "24",
+      "30"
+    ]
+  },
+  "2026-03-05": {
+    "type": "mosaic",
+    "equation": "yellow × blue − (red + lime)",
+    "quadrants": [
+      {
+        "color": "#ff595e",
+        "label": "red",
+        "value": 5
+      },
+      {
+        "color": "#ffca3a",
+        "label": "yellow",
+        "value": 8
+      },
+      {
+        "color": "#8ac926",
+        "label": "lime",
+        "value": 3
+      },
+      {
+        "color": "#1982c4",
+        "label": "blue",
+        "value": 6
+      }
+    ],
+    "answer": "40",
+    "decoys": [
+      "-40",
+      "48",
+      "8",
+      "30",
+      "15",
+      "18",
+      "24",
+      "56",
+      "32"
+    ]
+  },
+  "2026-03-06": {
+    "type": "mosaic",
+    "equation": "(green + yellow) × (red − blue)",
+    "quadrants": [
+      {
+        "color": "#ef476f",
+        "label": "red",
+        "value": 9
+      },
+      {
+        "color": "#ffd166",
+        "label": "yellow",
+        "value": 4
+      },
+      {
+        "color": "#06d6a0",
+        "label": "green",
+        "value": 7
+      },
+      {
+        "color": "#118ab2",
+        "label": "blue",
+        "value": 2
+      }
+    ],
+    "answer": "77",
+    "decoys": [
+      "-77",
+      "11",
+      "7",
+      "63",
+      "88",
+      "99",
+      "70",
+      "84",
+      "56"
+    ]
+  },
+  "2026-03-07": {
+    "type": "mosaic",
+    "equation": "(orange + flame)(indigo − periwinkle)",
+    "quadrants": [
+      {
+        "color": "#3d348b",
+        "label": "indigo",
+        "value": 8
+      },
+      {
+        "color": "#7678ed",
+        "label": "periwinkle",
+        "value": 3
+      },
+      {
+        "color": "#f18701",
+        "label": "orange",
+        "value": 6
+      },
+      {
+        "color": "#f35b04",
+        "label": "flame",
+        "value": 4
+      }
+    ],
+    "answer": "50",
+    "decoys": [
+      "-50",
+      "10",
+      "5",
+      "40",
+      "60",
+      "14",
+      "24",
+      "45",
+      "48"
+    ]
+  },
+  "2026-03-08": {
+    "type": "mosaic",
+    "equation": "blue × teal − (purple + pink)",
+    "quadrants": [
+      {
+        "color": "#9b5de5",
+        "label": "purple",
+        "value": 2
+      },
+      {
+        "color": "#f15bb5",
+        "label": "pink",
+        "value": 7
+      },
+      {
+        "color": "#00f5d4",
+        "label": "teal",
+        "value": 5
+      },
+      {
+        "color": "#00bbf9",
+        "label": "blue",
+        "value": 9
+      }
+    ],
+    "answer": "36",
+    "decoys": [
+      "-36",
+      "9",
+      "45",
+      "54",
+      "18",
+      "27",
+      "48",
+      "42",
+      "30"
+    ]
+  },
+  "2026-03-09": {
+    "type": "mosaic",
+    "equation": "(fuchsia − aqua)(volt + jet)",
+    "quadrants": [
+      {
+        "color": "#0c0f0a",
+        "label": "jet",
+        "value": 5
+      },
+      {
+        "color": "#ff206e",
+        "label": "fuchsia",
+        "value": 9
+      },
+      {
+        "color": "#fbff12",
+        "label": "volt",
+        "value": 4
+      },
+      {
+        "color": "#41ead4",
+        "label": "aqua",
+        "value": 2
+      }
+    ],
+    "answer": "63",
+    "decoys": [
+      "-63",
+      "7",
+      "9",
+      "14",
+      "72",
+      "54",
+      "45",
+      "56",
+      "70"
+    ]
+  },
+  "2026-03-10": {
+    "type": "mosaic",
+    "equation": "rose × gold − (sky + peach)",
+    "quadrants": [
+      {
+        "color": "#70d6ff",
+        "label": "sky",
+        "value": 8
+      },
+      {
+        "color": "#ff70a6",
+        "label": "rose",
+        "value": 6
+      },
+      {
+        "color": "#ff9770",
+        "label": "peach",
+        "value": 1
+      },
+      {
+        "color": "#ffd670",
+        "label": "gold",
+        "value": 9
+      }
+    ],
+    "answer": "45",
+    "decoys": [
+      "-45",
+      "54",
+      "9",
+      "6",
+      "63",
+      "36",
+      "40",
+      "48",
+      "30"
+    ]
+  },
+  "2026-03-11": {
+    "type": "mosaic",
+    "equation": "(lime − red) × yellow − blue",
+    "quadrants": [
+      {
+        "color": "#ff595e",
+        "label": "red",
+        "value": 3
+      },
+      {
+        "color": "#ffca3a",
+        "label": "yellow",
+        "value": 7
+      },
+      {
+        "color": "#8ac926",
+        "label": "lime",
+        "value": 9
+      },
+      {
+        "color": "#1982c4",
+        "label": "blue",
+        "value": 4
+      }
+    ],
+    "answer": "38",
+    "decoys": [
+      "-38",
+      "42",
+      "6",
+      "7",
+      "4",
+      "63",
+      "46",
+      "32",
+      "44"
+    ]
+  },
+  "2026-03-28": {
+    "type": "mosaic",
+    "equation": "(purple − pink)(teal + blue)",
+    "quadrants": [
+      {
+        "color": "#9b5de5",
+        "label": "purple",
+        "value": 9
+      },
+      {
+        "color": "#f15bb5",
+        "label": "pink",
+        "value": 4
+      },
+      {
+        "color": "#00f5d4",
+        "label": "teal",
+        "value": 6
+      },
+      {
+        "color": "#00bbf9",
+        "label": "blue",
+        "value": 8
+      }
+    ],
+    "answer": "70",
+    "decoys": [
+      "71",
+      "69",
+      "72",
+      "68",
+      "73",
+      "67",
+      "75",
+      "65",
+      "77"
+    ]
+  },
+  "2026-03-29": {
+    "type": "mosaic",
+    "equation": "jet × fuchsia − (volt + aqua)",
+    "quadrants": [
+      {
+        "color": "#0c0f0a",
+        "label": "jet",
+        "value": 7
+      },
+      {
+        "color": "#ff206e",
+        "label": "fuchsia",
+        "value": 3
+      },
+      {
+        "color": "#fbff12",
+        "label": "volt",
+        "value": 9
+      },
+      {
+        "color": "#41ead4",
+        "label": "aqua",
+        "value": 2
+      }
+    ],
+    "answer": "10",
+    "decoys": [
+      "11",
+      "9",
+      "12",
+      "8",
+      "13",
+      "7",
+      "15",
+      "5",
+      "17"
+    ]
+  },
+  "2026-03-30": {
+    "type": "mosaic",
+    "equation": "(sky + rose) × peach − gold",
+    "quadrants": [
+      {
+        "color": "#70d6ff",
+        "label": "sky",
+        "value": 6
+      },
+      {
+        "color": "#ff70a6",
+        "label": "rose",
+        "value": 9
+      },
+      {
+        "color": "#ff9770",
+        "label": "peach",
+        "value": 3
+      },
+      {
+        "color": "#ffd670",
+        "label": "gold",
+        "value": 7
+      }
+    ],
+    "answer": "38",
+    "decoys": [
+      "39",
+      "37",
+      "40",
+      "36",
+      "41",
+      "35",
+      "43",
+      "33",
+      "45"
+    ]
+  },
+  "2026-03-31": {
+    "type": "mosaic",
+    "equation": "red × yellow + lime − cobalt",
+    "quadrants": [
+      {
+        "color": "#ff595e",
+        "label": "red",
+        "value": 7
+      },
+      {
+        "color": "#ffca3a",
+        "label": "yellow",
+        "value": 3
+      },
+      {
+        "color": "#8ac926",
+        "label": "lime",
+        "value": 2
+      },
+      {
+        "color": "#1982c4",
+        "label": "cobalt",
+        "value": 9
+      }
+    ],
+    "answer": "14",
+    "decoys": [
+      "15",
+      "13",
+      "16",
+      "12",
+      "17",
+      "11",
+      "19",
+      "9",
+      "21"
+    ]
+  },
+  "2026-04-01": {
+    "type": "mosaic",
+    "equation": "(crimson + amber)(mint − ocean)",
+    "quadrants": [
+      {
+        "color": "#ef476f",
+        "label": "crimson",
+        "value": 5
+      },
+      {
+        "color": "#ffd166",
+        "label": "amber",
+        "value": 2
+      },
+      {
+        "color": "#06d6a0",
+        "label": "mint",
+        "value": 9
+      },
+      {
+        "color": "#118ab2",
+        "label": "ocean",
+        "value": 8
+      }
+    ],
+    "answer": "7",
+    "decoys": [
+      "8",
+      "6",
+      "9",
+      "5",
+      "10",
+      "4",
+      "12",
+      "2",
+      "14"
+    ]
+  },
+  "2026-04-02": {
+    "type": "mosaic",
+    "equation": "indigo × periwinkle − orange × flame",
+    "quadrants": [
+      {
+        "color": "#3d348b",
+        "label": "indigo",
+        "value": 4
+      },
+      {
+        "color": "#7678ed",
+        "label": "periwinkle",
+        "value": 7
+      },
+      {
+        "color": "#f18701",
+        "label": "orange",
+        "value": 9
+      },
+      {
+        "color": "#f35b04",
+        "label": "flame",
+        "value": 8
+      }
+    ],
+    "answer": "-44",
+    "decoys": [
+      "-43",
+      "-45",
+      "-42",
+      "-46",
+      "-41",
+      "-47",
+      "-39",
+      "-49",
+      "-37"
+    ]
+  },
+  "2026-04-03": {
+    "type": "mosaic",
+    "equation": "(coral − lemon) × (jade + steel)",
+    "quadrants": [
+      {
+        "color": "#ff6b6b",
+        "label": "coral",
+        "value": 4
+      },
+      {
+        "color": "#ffd93d",
+        "label": "lemon",
+        "value": 2
+      },
+      {
+        "color": "#6bcb77",
+        "label": "jade",
+        "value": 5
+      },
+      {
+        "color": "#4d96ff",
+        "label": "steel",
+        "value": 9
+      }
+    ],
+    "answer": "28",
+    "decoys": [
+      "29",
+      "27",
+      "30",
+      "26",
+      "31",
+      "25",
+      "33",
+      "23",
+      "35"
+    ]
+  },
+  "2026-04-04": {
+    "type": "mosaic",
+    "equation": "ruby + sand × sage − slate",
+    "quadrants": [
+      {
+        "color": "#e63946",
+        "label": "ruby",
+        "value": 3
+      },
+      {
+        "color": "#f4a261",
+        "label": "sand",
+        "value": 2
+      },
+      {
+        "color": "#2a9d8f",
+        "label": "sage",
+        "value": 6
+      },
+      {
+        "color": "#264653",
+        "label": "slate",
+        "value": 7
+      }
+    ],
+    "answer": "8",
+    "decoys": [
+      "9",
+      "7",
+      "10",
+      "6",
+      "11",
+      "5",
+      "13",
+      "3",
+      "15"
+    ]
+  },
+  "2026-04-05": {
+    "type": "mosaic",
+    "equation": "(purple − pink)(teal + blue)",
+    "quadrants": [
+      {
+        "color": "#9b5de5",
+        "label": "purple",
+        "value": 7
+      },
+      {
+        "color": "#f15bb5",
+        "label": "pink",
+        "value": 6
+      },
+      {
+        "color": "#00f5d4",
+        "label": "teal",
+        "value": 9
+      },
+      {
+        "color": "#00bbf9",
+        "label": "blue",
+        "value": 1
+      }
+    ],
+    "answer": "10",
+    "decoys": [
+      "11",
+      "9",
+      "12",
+      "8",
+      "13",
+      "7",
+      "15",
+      "5",
+      "17"
+    ]
+  },
+  "2026-04-06": {
+    "type": "mosaic",
+    "equation": "jet × fuchsia − (volt + aqua)",
+    "quadrants": [
+      {
+        "color": "#0c0f0a",
+        "label": "jet",
+        "value": 1
+      },
+      {
+        "color": "#ff206e",
+        "label": "fuchsia",
+        "value": 9
+      },
+      {
+        "color": "#fbff12",
+        "label": "volt",
+        "value": 4
+      },
+      {
+        "color": "#41ead4",
+        "label": "aqua",
+        "value": 8
+      }
+    ],
+    "answer": "-3",
+    "decoys": [
+      "-2",
+      "-4",
+      "-1",
+      "-5",
+      "0",
+      "-6",
+      "2",
+      "-8",
+      "4"
+    ]
+  },
+  "2026-04-07": {
+    "type": "mosaic",
+    "equation": "(sky + rose) × peach − gold",
+    "quadrants": [
+      {
+        "color": "#70d6ff",
+        "label": "sky",
+        "value": 6
+      },
+      {
+        "color": "#ff70a6",
+        "label": "rose",
+        "value": 1
+      },
+      {
+        "color": "#ff9770",
+        "label": "peach",
+        "value": 3
+      },
+      {
+        "color": "#ffd670",
+        "label": "gold",
+        "value": 8
+      }
+    ],
+    "answer": "13",
+    "decoys": [
+      "14",
+      "12",
+      "15",
+      "11",
+      "16",
+      "10",
+      "18",
+      "8",
+      "20"
+    ]
+  },
+  "2026-04-08": {
+    "type": "mosaic",
+    "equation": "red × yellow + lime − cobalt",
+    "quadrants": [
+      {
+        "color": "#ff595e",
+        "label": "red",
+        "value": 8
+      },
+      {
+        "color": "#ffca3a",
+        "label": "yellow",
+        "value": 5
+      },
+      {
+        "color": "#8ac926",
+        "label": "lime",
+        "value": 3
+      },
+      {
+        "color": "#1982c4",
+        "label": "cobalt",
+        "value": 7
+      }
+    ],
+    "answer": "36",
+    "decoys": [
+      "37",
+      "35",
+      "38",
+      "34",
+      "39",
+      "33",
+      "41",
+      "31",
+      "43"
+    ]
+  },
+  "2026-04-09": {
+    "type": "mosaic",
+    "equation": "(crimson + amber)(mint − ocean)",
+    "quadrants": [
+      {
+        "color": "#ef476f",
+        "label": "crimson",
+        "value": 8
+      },
+      {
+        "color": "#ffd166",
+        "label": "amber",
+        "value": 5
+      },
+      {
+        "color": "#06d6a0",
+        "label": "mint",
+        "value": 9
+      },
+      {
+        "color": "#118ab2",
+        "label": "ocean",
+        "value": 3
+      }
+    ],
+    "answer": "78",
+    "decoys": [
+      "79",
+      "77",
+      "80",
+      "76",
+      "81",
+      "75",
+      "83",
+      "73",
+      "85"
+    ]
+  },
+  "2026-04-10": {
+    "type": "mosaic",
+    "equation": "indigo × periwinkle − orange × flame",
+    "quadrants": [
+      {
+        "color": "#3d348b",
+        "label": "indigo",
+        "value": 4
+      },
+      {
+        "color": "#7678ed",
+        "label": "periwinkle",
+        "value": 2
+      },
+      {
+        "color": "#f18701",
+        "label": "orange",
+        "value": 3
+      },
+      {
+        "color": "#f35b04",
+        "label": "flame",
+        "value": 8
+      }
+    ],
+    "answer": "-16",
+    "decoys": [
+      "-15",
+      "-17",
+      "-14",
+      "-18",
+      "-13",
+      "-19",
+      "-11",
+      "-21",
+      "-9"
+    ]
+  },
+  "2026-04-11": {
+    "type": "mosaic",
+    "equation": "(coral − lemon) × (jade + steel)",
+    "quadrants": [
+      {
+        "color": "#ff6b6b",
+        "label": "coral",
+        "value": 8
+      },
+      {
+        "color": "#ffd93d",
+        "label": "lemon",
+        "value": 7
+      },
+      {
+        "color": "#6bcb77",
+        "label": "jade",
+        "value": 6
+      },
+      {
+        "color": "#4d96ff",
+        "label": "steel",
+        "value": 9
+      }
+    ],
+    "answer": "15",
+    "decoys": [
+      "16",
+      "14",
+      "17",
+      "13",
+      "18",
+      "12",
+      "20",
+      "10",
+      "22"
+    ]
+  },
+  "2026-04-12": {
+    "type": "mosaic",
+    "equation": "ruby + sand × sage − slate",
+    "quadrants": [
+      {
+        "color": "#e63946",
+        "label": "ruby",
+        "value": 7
+      },
+      {
+        "color": "#f4a261",
+        "label": "sand",
+        "value": 1
+      },
+      {
+        "color": "#2a9d8f",
+        "label": "sage",
+        "value": 4
+      },
+      {
+        "color": "#264653",
+        "label": "slate",
+        "value": 8
+      }
+    ],
+    "answer": "3",
+    "decoys": [
+      "4",
+      "2",
+      "5",
+      "1",
+      "6",
+      "0",
+      "8",
+      "-2",
+      "10"
+    ]
+  },
+  "2026-04-13": {
+    "type": "mosaic",
+    "equation": "(purple − pink)(teal + blue)",
+    "quadrants": [
+      {
+        "color": "#9b5de5",
+        "label": "purple",
+        "value": 8
+      },
+      {
+        "color": "#f15bb5",
+        "label": "pink",
+        "value": 5
+      },
+      {
+        "color": "#00f5d4",
+        "label": "teal",
+        "value": 4
+      },
+      {
+        "color": "#00bbf9",
+        "label": "blue",
+        "value": 1
+      }
+    ],
+    "answer": "15",
+    "decoys": [
+      "16",
+      "14",
+      "17",
+      "13",
+      "18",
+      "12",
+      "20",
+      "10",
+      "22"
+    ]
+  },
+  "2026-04-14": {
+    "type": "mosaic",
+    "equation": "jet × fuchsia − (volt + aqua)",
+    "quadrants": [
+      {
+        "color": "#0c0f0a",
+        "label": "jet",
+        "value": 4
+      },
+      {
+        "color": "#ff206e",
+        "label": "fuchsia",
+        "value": 3
+      },
+      {
+        "color": "#fbff12",
+        "label": "volt",
+        "value": 6
+      },
+      {
+        "color": "#41ead4",
+        "label": "aqua",
+        "value": 1
+      }
+    ],
+    "answer": "5",
+    "decoys": [
+      "6",
+      "4",
+      "7",
+      "3",
+      "8",
+      "2",
+      "10",
+      "0",
+      "12"
+    ]
+  },
+  "2026-04-15": {
+    "type": "mosaic",
+    "equation": "(sky + rose) × peach − gold",
+    "quadrants": [
+      {
+        "color": "#70d6ff",
+        "label": "sky",
+        "value": 8
+      },
+      {
+        "color": "#ff70a6",
+        "label": "rose",
+        "value": 7
+      },
+      {
+        "color": "#ff9770",
+        "label": "peach",
+        "value": 6
+      },
+      {
+        "color": "#ffd670",
+        "label": "gold",
+        "value": 4
+      }
+    ],
+    "answer": "86",
+    "decoys": [
+      "87",
+      "85",
+      "88",
+      "84",
+      "89",
+      "83",
+      "91",
+      "81",
+      "93"
+    ]
+  },
+  "2026-04-16": {
+    "type": "mosaic",
+    "equation": "red × yellow + lime − cobalt",
+    "quadrants": [
+      {
+        "color": "#ff595e",
+        "label": "red",
+        "value": 9
+      },
+      {
+        "color": "#ffca3a",
+        "label": "yellow",
+        "value": 3
+      },
+      {
+        "color": "#8ac926",
+        "label": "lime",
+        "value": 4
+      },
+      {
+        "color": "#1982c4",
+        "label": "cobalt",
+        "value": 6
+      }
+    ],
+    "answer": "25",
+    "decoys": [
+      "26",
+      "24",
+      "27",
+      "23",
+      "28",
+      "22",
+      "30",
+      "20",
+      "32"
+    ]
+  },
+  "2026-04-17": {
+    "type": "mosaic",
+    "equation": "(crimson + amber)(mint − ocean)",
+    "quadrants": [
+      {
+        "color": "#ef476f",
+        "label": "crimson",
+        "value": 2
+      },
+      {
+        "color": "#ffd166",
+        "label": "amber",
+        "value": 7
+      },
+      {
+        "color": "#06d6a0",
+        "label": "mint",
+        "value": 5
+      },
+      {
+        "color": "#118ab2",
+        "label": "ocean",
+        "value": 6
+      }
+    ],
+    "answer": "-9",
+    "decoys": [
+      "-8",
+      "-10",
+      "-7",
+      "-11",
+      "-6",
+      "-12",
+      "-4",
+      "-14",
+      "-2"
+    ]
+  },
+  "2026-04-18": {
+    "type": "mosaic",
+    "equation": "indigo × periwinkle − orange × flame",
+    "quadrants": [
+      {
+        "color": "#3d348b",
+        "label": "indigo",
+        "value": 3
+      },
+      {
+        "color": "#7678ed",
+        "label": "periwinkle",
+        "value": 4
+      },
+      {
+        "color": "#f18701",
+        "label": "orange",
+        "value": 6
+      },
+      {
+        "color": "#f35b04",
+        "label": "flame",
+        "value": 5
+      }
+    ],
+    "answer": "-18",
+    "decoys": [
+      "-17",
+      "-19",
+      "-16",
+      "-20",
+      "-15",
+      "-21",
+      "-13",
+      "-23",
+      "-11"
+    ]
+  },
+  "2026-04-19": {
+    "type": "mosaic",
+    "equation": "(coral − lemon) × (jade + steel)",
+    "quadrants": [
+      {
+        "color": "#ff6b6b",
+        "label": "coral",
+        "value": 7
+      },
+      {
+        "color": "#ffd93d",
+        "label": "lemon",
+        "value": 9
+      },
+      {
+        "color": "#6bcb77",
+        "label": "jade",
+        "value": 3
+      },
+      {
+        "color": "#4d96ff",
+        "label": "steel",
+        "value": 4
+      }
+    ],
+    "answer": "-14",
+    "decoys": [
+      "-13",
+      "-15",
+      "-12",
+      "-16",
+      "-11",
+      "-17",
+      "-9",
+      "-19",
+      "-7"
+    ]
+  },
+  "2026-04-20": {
+    "type": "mosaic",
+    "equation": "ruby + sand × sage − slate",
+    "quadrants": [
+      {
+        "color": "#e63946",
+        "label": "ruby",
+        "value": 2
+      },
+      {
+        "color": "#f4a261",
+        "label": "sand",
+        "value": 3
+      },
+      {
+        "color": "#2a9d8f",
+        "label": "sage",
+        "value": 1
+      },
+      {
+        "color": "#264653",
+        "label": "slate",
+        "value": 6
+      }
+    ],
+    "answer": "-1",
+    "decoys": [
+      "0",
+      "-2",
+      "1",
+      "-3",
+      "2",
+      "-4",
+      "4",
+      "-6",
+      "6"
+    ]
+  },
+  "2026-04-21": {
+    "type": "mosaic",
+    "equation": "(purple − pink)(teal + blue)",
+    "quadrants": [
+      {
+        "color": "#9b5de5",
+        "label": "purple",
+        "value": 2
+      },
+      {
+        "color": "#f15bb5",
+        "label": "pink",
+        "value": 6
+      },
+      {
+        "color": "#00f5d4",
+        "label": "teal",
+        "value": 1
+      },
+      {
+        "color": "#00bbf9",
+        "label": "blue",
+        "value": 5
+      }
+    ],
+    "answer": "-24",
+    "decoys": [
+      "-23",
+      "-25",
+      "-22",
+      "-26",
+      "-21",
+      "-27",
+      "-19",
+      "-29",
+      "-17"
+    ]
+  },
+  "2026-04-22": {
+    "type": "mosaic",
+    "equation": "jet × fuchsia − (volt + aqua)",
+    "quadrants": [
+      {
+        "color": "#0c0f0a",
+        "label": "jet",
+        "value": 5
+      },
+      {
+        "color": "#ff206e",
+        "label": "fuchsia",
+        "value": 6
+      },
+      {
+        "color": "#fbff12",
+        "label": "volt",
+        "value": 9
+      },
+      {
+        "color": "#41ead4",
+        "label": "aqua",
+        "value": 3
+      }
+    ],
+    "answer": "18",
+    "decoys": [
+      "19",
+      "17",
+      "20",
+      "16",
+      "21",
+      "15",
+      "23",
+      "13",
+      "25"
+    ]
+  },
+  "2026-04-23": {
+    "type": "mosaic",
+    "equation": "(sky + rose) × peach − gold",
+    "quadrants": [
+      {
+        "color": "#70d6ff",
+        "label": "sky",
+        "value": 4
+      },
+      {
+        "color": "#ff70a6",
+        "label": "rose",
+        "value": 9
+      },
+      {
+        "color": "#ff9770",
+        "label": "peach",
+        "value": 7
+      },
+      {
+        "color": "#ffd670",
+        "label": "gold",
+        "value": 3
+      }
+    ],
+    "answer": "88",
+    "decoys": [
+      "89",
+      "87",
+      "90",
+      "86",
+      "91",
+      "85",
+      "93",
+      "83",
+      "95"
+    ]
+  },
+  "2026-04-24": {
+    "type": "mosaic",
+    "equation": "red × yellow + lime − cobalt",
+    "quadrants": [
+      {
+        "color": "#ff595e",
+        "label": "red",
+        "value": 3
+      },
+      {
+        "color": "#ffca3a",
+        "label": "yellow",
+        "value": 9
+      },
+      {
+        "color": "#8ac926",
+        "label": "lime",
+        "value": 6
+      },
+      {
+        "color": "#1982c4",
+        "label": "cobalt",
+        "value": 1
+      }
+    ],
+    "answer": "32",
+    "decoys": [
+      "33",
+      "31",
+      "34",
+      "30",
+      "35",
+      "29",
+      "37",
+      "27",
+      "39"
+    ]
+  },
+  "2026-04-25": {
+    "type": "mosaic",
+    "equation": "(crimson + amber)(mint − ocean)",
+    "quadrants": [
+      {
+        "color": "#ef476f",
+        "label": "crimson",
+        "value": 8
+      },
+      {
+        "color": "#ffd166",
+        "label": "amber",
+        "value": 3
+      },
+      {
+        "color": "#06d6a0",
+        "label": "mint",
+        "value": 6
+      },
+      {
+        "color": "#118ab2",
+        "label": "ocean",
+        "value": 9
+      }
+    ],
+    "answer": "-33",
+    "decoys": [
+      "-32",
+      "-34",
+      "-31",
+      "-35",
+      "-30",
+      "-36",
+      "-28",
+      "-38",
+      "-26"
+    ]
+  },
+  "2026-04-26": {
+    "type": "mosaic",
+    "equation": "indigo × periwinkle − orange × flame",
+    "quadrants": [
+      {
+        "color": "#3d348b",
+        "label": "indigo",
+        "value": 6
+      },
+      {
+        "color": "#7678ed",
+        "label": "periwinkle",
+        "value": 3
+      },
+      {
+        "color": "#f18701",
+        "label": "orange",
+        "value": 5
+      },
+      {
+        "color": "#f35b04",
+        "label": "flame",
+        "value": 1
+      }
+    ],
+    "answer": "13",
+    "decoys": [
+      "14",
+      "12",
+      "15",
+      "11",
+      "16",
+      "10",
+      "18",
+      "8",
+      "20"
+    ]
+  },
+  "2026-04-27": {
+    "type": "mosaic",
+    "equation": "(coral − lemon) × (jade + steel)",
+    "quadrants": [
+      {
+        "color": "#ff6b6b",
+        "label": "coral",
+        "value": 9
+      },
+      {
+        "color": "#ffd93d",
+        "label": "lemon",
+        "value": 1
+      },
+      {
+        "color": "#6bcb77",
+        "label": "jade",
+        "value": 4
+      },
+      {
+        "color": "#4d96ff",
+        "label": "steel",
+        "value": 7
+      }
+    ],
+    "answer": "88",
+    "decoys": [
+      "89",
+      "87",
+      "90",
+      "86",
+      "91",
+      "85",
+      "93",
+      "83",
+      "95"
+    ]
+  },
+  "2026-04-28": {
+    "type": "mosaic",
+    "equation": "ruby + sand × sage − slate",
+    "quadrants": [
+      {
+        "color": "#e63946",
+        "label": "ruby",
+        "value": 6
+      },
+      {
+        "color": "#f4a261",
+        "label": "sand",
+        "value": 9
+      },
+      {
+        "color": "#2a9d8f",
+        "label": "sage",
+        "value": 7
+      },
+      {
+        "color": "#264653",
+        "label": "slate",
+        "value": 3
+      }
+    ],
+    "answer": "66",
+    "decoys": [
+      "67",
+      "65",
+      "68",
+      "64",
+      "69",
+      "63",
+      "71",
+      "61",
+      "73"
+    ]
+  },
+  "2026-04-29": {
+    "type": "mosaic",
+    "equation": "(purple − pink)(teal + blue)",
+    "quadrants": [
+      {
+        "color": "#9b5de5",
+        "label": "purple",
+        "value": 7
+      },
+      {
+        "color": "#f15bb5",
+        "label": "pink",
+        "value": 4
+      },
+      {
+        "color": "#00f5d4",
+        "label": "teal",
+        "value": 1
+      },
+      {
+        "color": "#00bbf9",
+        "label": "blue",
+        "value": 9
+      }
+    ],
+    "answer": "30",
+    "decoys": [
+      "31",
+      "29",
+      "32",
+      "28",
+      "33",
+      "27",
+      "35",
+      "25",
+      "37"
+    ]
+  },
+  "2026-04-30": {
+    "type": "mosaic",
+    "equation": "jet × fuchsia − (volt + aqua)",
+    "quadrants": [
+      {
+        "color": "#0c0f0a",
+        "label": "jet",
+        "value": 9
+      },
+      {
+        "color": "#ff206e",
+        "label": "fuchsia",
+        "value": 5
+      },
+      {
+        "color": "#fbff12",
+        "label": "volt",
+        "value": 2
+      },
+      {
+        "color": "#41ead4",
+        "label": "aqua",
+        "value": 4
+      }
+    ],
+    "answer": "39",
+    "decoys": [
+      "40",
+      "38",
+      "41",
+      "37",
+      "42",
+      "36",
+      "44",
+      "34",
+      "46"
+    ]
+  },
+  "2026-05-01": {
+    "type": "mosaic",
+    "equation": "(sky + rose) × peach − gold",
+    "quadrants": [
+      {
+        "color": "#70d6ff",
+        "label": "sky",
+        "value": 4
+      },
+      {
+        "color": "#ff70a6",
+        "label": "rose",
+        "value": 1
+      },
+      {
+        "color": "#ff9770",
+        "label": "peach",
+        "value": 3
+      },
+      {
+        "color": "#ffd670",
+        "label": "gold",
+        "value": 8
+      }
+    ],
+    "answer": "7",
+    "decoys": [
+      "8",
+      "6",
+      "9",
+      "5",
+      "10",
+      "4",
+      "12",
+      "2",
+      "14"
+    ]
+  },
+  "2026-05-02": {
+    "type": "mosaic",
+    "equation": "red × yellow + lime − cobalt",
+    "quadrants": [
+      {
+        "color": "#ff595e",
+        "label": "red",
+        "value": 3
+      },
+      {
+        "color": "#ffca3a",
+        "label": "yellow",
+        "value": 5
+      },
+      {
+        "color": "#8ac926",
+        "label": "lime",
+        "value": 2
+      },
+      {
+        "color": "#1982c4",
+        "label": "cobalt",
+        "value": 1
+      }
+    ],
+    "answer": "16",
+    "decoys": [
+      "17",
+      "15",
+      "18",
+      "14",
+      "19",
+      "13",
+      "21",
+      "11",
+      "23"
+    ]
+  },
+  "2026-05-03": {
+    "type": "mosaic",
+    "equation": "(crimson + amber)(mint − ocean)",
+    "quadrants": [
+      {
+        "color": "#ef476f",
+        "label": "crimson",
+        "value": 7
+      },
+      {
+        "color": "#ffd166",
+        "label": "amber",
+        "value": 1
+      },
+      {
+        "color": "#06d6a0",
+        "label": "mint",
+        "value": 3
+      },
+      {
+        "color": "#118ab2",
+        "label": "ocean",
+        "value": 6
+      }
+    ],
+    "answer": "-24",
+    "decoys": [
+      "-23",
+      "-25",
+      "-22",
+      "-26",
+      "-21",
+      "-27",
+      "-19",
+      "-29",
+      "-17"
+    ]
+  },
+  "2026-05-04": {
+    "type": "mosaic",
+    "equation": "indigo × periwinkle − orange × flame",
+    "quadrants": [
+      {
+        "color": "#3d348b",
+        "label": "indigo",
+        "value": 9
+      },
+      {
+        "color": "#7678ed",
+        "label": "periwinkle",
+        "value": 3
+      },
+      {
+        "color": "#f18701",
+        "label": "orange",
+        "value": 4
+      },
+      {
+        "color": "#f35b04",
+        "label": "flame",
+        "value": 8
+      }
+    ],
+    "answer": "-5",
+    "decoys": [
+      "-4",
+      "-6",
+      "-3",
+      "-7",
+      "-2",
+      "-8",
+      "0",
+      "-10",
+      "2"
+    ]
+  },
+  "2026-05-05": {
+    "type": "mosaic",
+    "equation": "(coral − lemon) × (jade + steel)",
+    "quadrants": [
+      {
+        "color": "#ff6b6b",
+        "label": "coral",
+        "value": 5
+      },
+      {
+        "color": "#ffd93d",
+        "label": "lemon",
+        "value": 6
+      },
+      {
+        "color": "#6bcb77",
+        "label": "jade",
+        "value": 9
+      },
+      {
+        "color": "#4d96ff",
+        "label": "steel",
+        "value": 8
+      }
+    ],
+    "answer": "-17",
+    "decoys": [
+      "-16",
+      "-18",
+      "-15",
+      "-19",
+      "-14",
+      "-20",
+      "-12",
+      "-22",
+      "-10"
+    ]
+  },
+  "2026-05-06": {
+    "type": "mosaic",
+    "equation": "ruby + sand × sage − slate",
+    "quadrants": [
+      {
+        "color": "#e63946",
+        "label": "ruby",
+        "value": 2
+      },
+      {
+        "color": "#f4a261",
+        "label": "sand",
+        "value": 9
+      },
+      {
+        "color": "#2a9d8f",
+        "label": "sage",
+        "value": 1
+      },
+      {
+        "color": "#264653",
+        "label": "slate",
+        "value": 4
+      }
+    ],
+    "answer": "7",
+    "decoys": [
+      "8",
+      "6",
+      "9",
+      "5",
+      "10",
+      "4",
+      "12",
+      "2",
+      "14"
+    ]
+  },
+  "2026-05-07": {
+    "type": "mosaic",
+    "equation": "(purple − pink)(teal + blue)",
+    "quadrants": [
+      {
+        "color": "#9b5de5",
+        "label": "purple",
+        "value": 4
+      },
+      {
+        "color": "#f15bb5",
+        "label": "pink",
+        "value": 7
+      },
+      {
+        "color": "#00f5d4",
+        "label": "teal",
+        "value": 5
+      },
+      {
+        "color": "#00bbf9",
+        "label": "blue",
+        "value": 9
+      }
+    ],
+    "answer": "-42",
+    "decoys": [
+      "-41",
+      "-43",
+      "-40",
+      "-44",
+      "-39",
+      "-45",
+      "-37",
+      "-47",
+      "-35"
+    ]
+  },
+  "2026-05-08": {
+    "type": "mosaic",
+    "equation": "jet × fuchsia − (volt + aqua)",
+    "quadrants": [
+      {
+        "color": "#0c0f0a",
+        "label": "jet",
+        "value": 7
+      },
+      {
+        "color": "#ff206e",
+        "label": "fuchsia",
+        "value": 1
+      },
+      {
+        "color": "#fbff12",
+        "label": "volt",
+        "value": 3
+      },
+      {
+        "color": "#41ead4",
+        "label": "aqua",
+        "value": 4
+      }
+    ],
+    "answer": "0",
+    "decoys": [
+      "1",
+      "-1",
+      "2",
+      "-2",
+      "3",
+      "-3",
+      "5",
+      "-5",
+      "7"
+    ]
+  },
+  "2026-05-09": {
+    "type": "mosaic",
+    "equation": "(sky + rose) × peach − gold",
+    "quadrants": [
+      {
+        "color": "#70d6ff",
+        "label": "sky",
+        "value": 8
+      },
+      {
+        "color": "#ff70a6",
+        "label": "rose",
+        "value": 5
+      },
+      {
+        "color": "#ff9770",
+        "label": "peach",
+        "value": 7
+      },
+      {
+        "color": "#ffd670",
+        "label": "gold",
+        "value": 9
+      }
+    ],
+    "answer": "82",
+    "decoys": [
+      "83",
+      "81",
+      "84",
+      "80",
+      "85",
+      "79",
+      "87",
+      "77",
+      "89"
+    ]
+  },
+  "2026-05-10": {
+    "type": "mosaic",
+    "equation": "red × yellow + lime − cobalt",
+    "quadrants": [
+      {
+        "color": "#ff595e",
+        "label": "red",
+        "value": 6
+      },
+      {
+        "color": "#ffca3a",
+        "label": "yellow",
+        "value": 4
+      },
+      {
+        "color": "#8ac926",
+        "label": "lime",
+        "value": 5
+      },
+      {
+        "color": "#1982c4",
+        "label": "cobalt",
+        "value": 2
+      }
+    ],
+    "answer": "27",
+    "decoys": [
+      "28",
+      "26",
+      "29",
+      "25",
+      "30",
+      "24",
+      "32",
+      "22",
+      "34"
+    ]
+  },
+  "2026-05-11": {
+    "type": "mosaic",
+    "equation": "(crimson + amber)(mint − ocean)",
+    "quadrants": [
+      {
+        "color": "#ef476f",
+        "label": "crimson",
+        "value": 8
+      },
+      {
+        "color": "#ffd166",
+        "label": "amber",
+        "value": 2
+      },
+      {
+        "color": "#06d6a0",
+        "label": "mint",
+        "value": 5
+      },
+      {
+        "color": "#118ab2",
+        "label": "ocean",
+        "value": 7
+      }
+    ],
+    "answer": "-20",
+    "decoys": [
+      "-19",
+      "-21",
+      "-18",
+      "-22",
+      "-17",
+      "-23",
+      "-15",
+      "-25",
+      "-13"
+    ]
+  },
+  "2026-05-12": {
+    "type": "mosaic",
+    "equation": "indigo × periwinkle − orange × flame",
+    "quadrants": [
+      {
+        "color": "#3d348b",
+        "label": "indigo",
+        "value": 3
+      },
+      {
+        "color": "#7678ed",
+        "label": "periwinkle",
+        "value": 7
+      },
+      {
+        "color": "#f18701",
+        "label": "orange",
+        "value": 6
+      },
+      {
+        "color": "#f35b04",
+        "label": "flame",
+        "value": 5
+      }
+    ],
+    "answer": "-9",
+    "decoys": [
+      "-8",
+      "-10",
+      "-7",
+      "-11",
+      "-6",
+      "-12",
+      "-4",
+      "-14",
+      "-2"
+    ]
+  },
+  "2026-05-13": {
+    "type": "mosaic",
+    "equation": "(coral − lemon) × (jade + steel)",
+    "quadrants": [
+      {
+        "color": "#ff6b6b",
+        "label": "coral",
+        "value": 9
+      },
+      {
+        "color": "#ffd93d",
+        "label": "lemon",
+        "value": 6
+      },
+      {
+        "color": "#6bcb77",
+        "label": "jade",
+        "value": 5
+      },
+      {
+        "color": "#4d96ff",
+        "label": "steel",
+        "value": 8
+      }
+    ],
+    "answer": "39",
+    "decoys": [
+      "40",
+      "38",
+      "41",
+      "37",
+      "42",
+      "36",
+      "44",
+      "34",
+      "46"
+    ]
+  },
+  "2026-05-14": {
+    "type": "mosaic",
+    "equation": "ruby + sand × sage − slate",
+    "quadrants": [
+      {
+        "color": "#e63946",
+        "label": "ruby",
+        "value": 5
+      },
+      {
+        "color": "#f4a261",
+        "label": "sand",
+        "value": 2
+      },
+      {
+        "color": "#2a9d8f",
+        "label": "sage",
+        "value": 1
+      },
+      {
+        "color": "#264653",
+        "label": "slate",
+        "value": 8
+      }
+    ],
+    "answer": "-1",
+    "decoys": [
+      "0",
+      "-2",
+      "1",
+      "-3",
+      "2",
+      "-4",
+      "4",
+      "-6",
+      "6"
+    ]
+  },
+  "2026-05-15": {
+    "type": "mosaic",
+    "equation": "(purple − pink)(teal + blue)",
+    "quadrants": [
+      {
+        "color": "#9b5de5",
+        "label": "purple",
+        "value": 6
+      },
+      {
+        "color": "#f15bb5",
+        "label": "pink",
+        "value": 9
+      },
+      {
+        "color": "#00f5d4",
+        "label": "teal",
+        "value": 2
+      },
+      {
+        "color": "#00bbf9",
+        "label": "blue",
+        "value": 5
+      }
+    ],
+    "answer": "-21",
+    "decoys": [
+      "-20",
+      "-22",
+      "-19",
+      "-23",
+      "-18",
+      "-24",
+      "-16",
+      "-26",
+      "-14"
+    ]
+  },
+  "2026-05-16": {
+    "type": "mosaic",
+    "equation": "jet × fuchsia − (volt + aqua)",
+    "quadrants": [
+      {
+        "color": "#0c0f0a",
+        "label": "jet",
+        "value": 1
+      },
+      {
+        "color": "#ff206e",
+        "label": "fuchsia",
+        "value": 6
+      },
+      {
+        "color": "#fbff12",
+        "label": "volt",
+        "value": 2
+      },
+      {
+        "color": "#41ead4",
+        "label": "aqua",
+        "value": 9
+      }
+    ],
+    "answer": "-5",
+    "decoys": [
+      "-4",
+      "-6",
+      "-3",
+      "-7",
+      "-2",
+      "-8",
+      "0",
+      "-10",
+      "2"
+    ]
+  },
+  "2026-05-17": {
+    "type": "mosaic",
+    "equation": "(sky + rose) × peach − gold",
+    "quadrants": [
+      {
+        "color": "#70d6ff",
+        "label": "sky",
+        "value": 7
+      },
+      {
+        "color": "#ff70a6",
+        "label": "rose",
+        "value": 5
+      },
+      {
+        "color": "#ff9770",
+        "label": "peach",
+        "value": 2
+      },
+      {
+        "color": "#ffd670",
+        "label": "gold",
+        "value": 4
+      }
+    ],
+    "answer": "20",
+    "decoys": [
+      "21",
+      "19",
+      "22",
+      "18",
+      "23",
+      "17",
+      "25",
+      "15",
+      "27"
+    ]
+  },
+  "2026-05-18": {
+    "type": "mosaic",
+    "equation": "red × yellow + lime − cobalt",
+    "quadrants": [
+      {
+        "color": "#ff595e",
+        "label": "red",
+        "value": 5
+      },
+      {
+        "color": "#ffca3a",
+        "label": "yellow",
+        "value": 3
+      },
+      {
+        "color": "#8ac926",
+        "label": "lime",
+        "value": 8
+      },
+      {
+        "color": "#1982c4",
+        "label": "cobalt",
+        "value": 1
+      }
+    ],
+    "answer": "22",
+    "decoys": [
+      "23",
+      "21",
+      "24",
+      "20",
+      "25",
+      "19",
+      "27",
+      "17",
+      "29"
+    ]
+  },
+  "2026-05-19": {
+    "type": "mosaic",
+    "equation": "(crimson + amber)(mint − ocean)",
+    "quadrants": [
+      {
+        "color": "#ef476f",
+        "label": "crimson",
+        "value": 4
+      },
+      {
+        "color": "#ffd166",
+        "label": "amber",
+        "value": 6
+      },
+      {
+        "color": "#06d6a0",
+        "label": "mint",
+        "value": 1
+      },
+      {
+        "color": "#118ab2",
+        "label": "ocean",
+        "value": 7
+      }
+    ],
+    "answer": "-60",
+    "decoys": [
+      "-59",
+      "-61",
+      "-58",
+      "-62",
+      "-57",
+      "-63",
+      "-55",
+      "-65",
+      "-53"
+    ]
+  },
+  "2026-05-20": {
+    "type": "mosaic",
+    "equation": "indigo × periwinkle − orange × flame",
+    "quadrants": [
+      {
+        "color": "#3d348b",
+        "label": "indigo",
+        "value": 8
+      },
+      {
+        "color": "#7678ed",
+        "label": "periwinkle",
+        "value": 1
+      },
+      {
+        "color": "#f18701",
+        "label": "orange",
+        "value": 2
+      },
+      {
+        "color": "#f35b04",
+        "label": "flame",
+        "value": 4
+      }
+    ],
+    "answer": "0",
+    "decoys": [
+      "1",
+      "-1",
+      "2",
+      "-2",
+      "3",
+      "-3",
+      "5",
+      "-5",
+      "7"
+    ]
+  },
+  "2026-05-21": {
+    "type": "mosaic",
+    "equation": "(coral − lemon) × (jade + steel)",
+    "quadrants": [
+      {
+        "color": "#ff6b6b",
+        "label": "coral",
+        "value": 4
+      },
+      {
+        "color": "#ffd93d",
+        "label": "lemon",
+        "value": 7
+      },
+      {
+        "color": "#6bcb77",
+        "label": "jade",
+        "value": 5
+      },
+      {
+        "color": "#4d96ff",
+        "label": "steel",
+        "value": 8
+      }
+    ],
+    "answer": "-39",
+    "decoys": [
+      "-38",
+      "-40",
+      "-37",
+      "-41",
+      "-36",
+      "-42",
+      "-34",
+      "-44",
+      "-32"
+    ]
+  },
+  "2026-05-22": {
+    "type": "mosaic",
+    "equation": "ruby + sand × sage − slate",
+    "quadrants": [
+      {
+        "color": "#e63946",
+        "label": "ruby",
+        "value": 4
+      },
+      {
+        "color": "#f4a261",
+        "label": "sand",
+        "value": 8
+      },
+      {
+        "color": "#2a9d8f",
+        "label": "sage",
+        "value": 3
+      },
+      {
+        "color": "#264653",
+        "label": "slate",
+        "value": 6
+      }
+    ],
+    "answer": "22",
+    "decoys": [
+      "23",
+      "21",
+      "24",
+      "20",
+      "25",
+      "19",
+      "27",
+      "17",
+      "29"
+    ]
+  },
+  "2026-05-23": {
+    "type": "mosaic",
+    "equation": "(purple − pink)(teal + blue)",
+    "quadrants": [
+      {
+        "color": "#9b5de5",
+        "label": "purple",
+        "value": 8
+      },
+      {
+        "color": "#f15bb5",
+        "label": "pink",
+        "value": 6
+      },
+      {
+        "color": "#00f5d4",
+        "label": "teal",
+        "value": 3
+      },
+      {
+        "color": "#00bbf9",
+        "label": "blue",
+        "value": 4
+      }
+    ],
+    "answer": "14",
+    "decoys": [
+      "15",
+      "13",
+      "16",
+      "12",
+      "17",
+      "11",
+      "19",
+      "9",
+      "21"
+    ]
+  },
+  "2026-05-24": {
+    "type": "mosaic",
+    "equation": "jet × fuchsia − (volt + aqua)",
+    "quadrants": [
+      {
+        "color": "#0c0f0a",
+        "label": "jet",
+        "value": 1
+      },
+      {
+        "color": "#ff206e",
+        "label": "fuchsia",
+        "value": 9
+      },
+      {
+        "color": "#fbff12",
+        "label": "volt",
+        "value": 6
+      },
+      {
+        "color": "#41ead4",
+        "label": "aqua",
+        "value": 4
+      }
+    ],
+    "answer": "-1",
+    "decoys": [
+      "0",
+      "-2",
+      "1",
+      "-3",
+      "2",
+      "-4",
+      "4",
+      "-6",
+      "6"
+    ]
+  },
+  "2026-05-25": {
+    "type": "mosaic",
+    "equation": "(sky + rose) × peach − gold",
+    "quadrants": [
+      {
+        "color": "#70d6ff",
+        "label": "sky",
+        "value": 4
+      },
+      {
+        "color": "#ff70a6",
+        "label": "rose",
+        "value": 3
+      },
+      {
+        "color": "#ff9770",
+        "label": "peach",
+        "value": 6
+      },
+      {
+        "color": "#ffd670",
+        "label": "gold",
+        "value": 5
+      }
+    ],
+    "answer": "37",
+    "decoys": [
+      "38",
+      "36",
+      "39",
+      "35",
+      "40",
+      "34",
+      "42",
+      "32",
+      "44"
+    ]
+  },
+  "2026-05-26": {
+    "type": "mosaic",
+    "equation": "red × yellow + lime − cobalt",
+    "quadrants": [
+      {
+        "color": "#ff595e",
+        "label": "red",
+        "value": 4
+      },
+      {
+        "color": "#ffca3a",
+        "label": "yellow",
+        "value": 9
+      },
+      {
+        "color": "#8ac926",
+        "label": "lime",
+        "value": 5
+      },
+      {
+        "color": "#1982c4",
+        "label": "cobalt",
+        "value": 6
+      }
+    ],
+    "answer": "35",
+    "decoys": [
+      "36",
+      "34",
+      "37",
+      "33",
+      "38",
+      "32",
+      "40",
+      "30",
+      "42"
+    ]
+  },
+  "2026-05-27": {
+    "type": "mosaic",
+    "equation": "(crimson + amber)(mint − ocean)",
+    "quadrants": [
+      {
+        "color": "#ef476f",
+        "label": "crimson",
+        "value": 5
+      },
+      {
+        "color": "#ffd166",
+        "label": "amber",
+        "value": 8
+      },
+      {
+        "color": "#06d6a0",
+        "label": "mint",
+        "value": 9
+      },
+      {
+        "color": "#118ab2",
+        "label": "ocean",
+        "value": 4
+      }
+    ],
+    "answer": "65",
+    "decoys": [
+      "66",
+      "64",
+      "67",
+      "63",
+      "68",
+      "62",
+      "70",
+      "60",
+      "72"
+    ]
+  },
+  "2026-05-28": {
+    "type": "mosaic",
+    "equation": "indigo × periwinkle − orange × flame",
+    "quadrants": [
+      {
+        "color": "#3d348b",
+        "label": "indigo",
+        "value": 9
+      },
+      {
+        "color": "#7678ed",
+        "label": "periwinkle",
+        "value": 2
+      },
+      {
+        "color": "#f18701",
+        "label": "orange",
+        "value": 5
+      },
+      {
+        "color": "#f35b04",
+        "label": "flame",
+        "value": 1
+      }
+    ],
+    "answer": "13",
+    "decoys": [
+      "14",
+      "12",
+      "15",
+      "11",
+      "16",
+      "10",
+      "18",
+      "8",
+      "20"
+    ]
+  },
+  "2026-05-29": {
+    "type": "mosaic",
+    "equation": "(coral − lemon) × (jade + steel)",
+    "quadrants": [
+      {
+        "color": "#ff6b6b",
+        "label": "coral",
+        "value": 3
+      },
+      {
+        "color": "#ffd93d",
+        "label": "lemon",
+        "value": 1
+      },
+      {
+        "color": "#6bcb77",
+        "label": "jade",
+        "value": 7
+      },
+      {
+        "color": "#4d96ff",
+        "label": "steel",
+        "value": 2
+      }
+    ],
+    "answer": "18",
+    "decoys": [
+      "19",
+      "17",
+      "20",
+      "16",
+      "21",
+      "15",
+      "23",
+      "13",
+      "25"
+    ]
+  },
+  "2026-05-30": {
+    "type": "mosaic",
+    "equation": "ruby + sand × sage − slate",
+    "quadrants": [
+      {
+        "color": "#e63946",
+        "label": "ruby",
+        "value": 8
+      },
+      {
+        "color": "#f4a261",
+        "label": "sand",
+        "value": 7
+      },
+      {
+        "color": "#2a9d8f",
+        "label": "sage",
+        "value": 9
+      },
+      {
+        "color": "#264653",
+        "label": "slate",
+        "value": 3
+      }
+    ],
+    "answer": "68",
+    "decoys": [
+      "69",
+      "67",
+      "70",
+      "66",
+      "71",
+      "65",
+      "73",
+      "63",
+      "75"
+    ]
+  },
+  "2026-05-31": {
+    "type": "mosaic",
+    "equation": "(purple − pink)(teal + blue)",
+    "quadrants": [
+      {
+        "color": "#9b5de5",
+        "label": "purple",
+        "value": 3
+      },
+      {
+        "color": "#f15bb5",
+        "label": "pink",
+        "value": 1
+      },
+      {
+        "color": "#00f5d4",
+        "label": "teal",
+        "value": 2
+      },
+      {
+        "color": "#00bbf9",
+        "label": "blue",
+        "value": 4
+      }
+    ],
+    "answer": "12",
+    "decoys": [
+      "13",
+      "11",
+      "14",
+      "10",
+      "15",
+      "9",
+      "17",
+      "7",
+      "19"
+    ]
+  },
+  "2026-06-01": {
+    "type": "mosaic",
+    "equation": "jet × fuchsia − (volt + aqua)",
+    "quadrants": [
+      {
+        "color": "#0c0f0a",
+        "label": "jet",
+        "value": 2
+      },
+      {
+        "color": "#ff206e",
+        "label": "fuchsia",
+        "value": 1
+      },
+      {
+        "color": "#fbff12",
+        "label": "volt",
+        "value": 4
+      },
+      {
+        "color": "#41ead4",
+        "label": "aqua",
+        "value": 3
+      }
+    ],
+    "answer": "-5",
+    "decoys": [
+      "-4",
+      "-6",
+      "-3",
+      "-7",
+      "-2",
+      "-8",
+      "0",
+      "-10",
+      "2"
+    ]
+  },
+  "2026-06-02": {
+    "type": "mosaic",
+    "equation": "(sky + rose) × peach − gold",
+    "quadrants": [
+      {
+        "color": "#70d6ff",
+        "label": "sky",
+        "value": 1
+      },
+      {
+        "color": "#ff70a6",
+        "label": "rose",
+        "value": 5
+      },
+      {
+        "color": "#ff9770",
+        "label": "peach",
+        "value": 3
+      },
+      {
+        "color": "#ffd670",
+        "label": "gold",
+        "value": 4
+      }
+    ],
+    "answer": "14",
+    "decoys": [
+      "15",
+      "13",
+      "16",
+      "12",
+      "17",
+      "11",
+      "19",
+      "9",
+      "21"
+    ]
+  },
+  "2026-06-03": {
+    "type": "mosaic",
+    "equation": "red × yellow + lime − cobalt",
+    "quadrants": [
+      {
+        "color": "#ff595e",
+        "label": "red",
+        "value": 7
+      },
+      {
+        "color": "#ffca3a",
+        "label": "yellow",
+        "value": 2
+      },
+      {
+        "color": "#8ac926",
+        "label": "lime",
+        "value": 4
+      },
+      {
+        "color": "#1982c4",
+        "label": "cobalt",
+        "value": 3
+      }
+    ],
+    "answer": "15",
+    "decoys": [
+      "16",
+      "14",
+      "17",
+      "13",
+      "18",
+      "12",
+      "20",
+      "10",
+      "22"
+    ]
+  },
+  "2026-06-04": {
+    "type": "mosaic",
+    "equation": "(crimson + amber)(mint − ocean)",
+    "quadrants": [
+      {
+        "color": "#ef476f",
+        "label": "crimson",
+        "value": 4
+      },
+      {
+        "color": "#ffd166",
+        "label": "amber",
+        "value": 8
+      },
+      {
+        "color": "#06d6a0",
+        "label": "mint",
+        "value": 3
+      },
+      {
+        "color": "#118ab2",
+        "label": "ocean",
+        "value": 9
+      }
+    ],
+    "answer": "-72",
+    "decoys": [
+      "-71",
+      "-73",
+      "-70",
+      "-74",
+      "-69",
+      "-75",
+      "-67",
+      "-77",
+      "-65"
+    ]
+  },
+  "2026-06-05": {
+    "type": "mosaic",
+    "equation": "indigo × periwinkle − orange × flame",
+    "quadrants": [
+      {
+        "color": "#3d348b",
+        "label": "indigo",
+        "value": 8
+      },
+      {
+        "color": "#7678ed",
+        "label": "periwinkle",
+        "value": 4
+      },
+      {
+        "color": "#f18701",
+        "label": "orange",
+        "value": 5
+      },
+      {
+        "color": "#f35b04",
+        "label": "flame",
+        "value": 1
+      }
+    ],
+    "answer": "27",
+    "decoys": [
+      "28",
+      "26",
+      "29",
+      "25",
+      "30",
+      "24",
+      "32",
+      "22",
+      "34"
+    ]
+  },
+  "2026-06-06": {
+    "type": "mosaic",
+    "equation": "(coral − lemon) × (jade + steel)",
+    "quadrants": [
+      {
+        "color": "#ff6b6b",
+        "label": "coral",
+        "value": 2
+      },
+      {
+        "color": "#ffd93d",
+        "label": "lemon",
+        "value": 4
+      },
+      {
+        "color": "#6bcb77",
+        "label": "jade",
+        "value": 1
+      },
+      {
+        "color": "#4d96ff",
+        "label": "steel",
+        "value": 7
+      }
+    ],
+    "answer": "-16",
+    "decoys": [
+      "-15",
+      "-17",
+      "-14",
+      "-18",
+      "-13",
+      "-19",
+      "-11",
+      "-21",
+      "-9"
+    ]
+  },
+  "2026-06-07": {
+    "type": "mosaic",
+    "equation": "ruby + sand × sage − slate",
+    "quadrants": [
+      {
+        "color": "#e63946",
+        "label": "ruby",
+        "value": 6
+      },
+      {
+        "color": "#f4a261",
+        "label": "sand",
+        "value": 1
+      },
+      {
+        "color": "#2a9d8f",
+        "label": "sage",
+        "value": 9
+      },
+      {
+        "color": "#264653",
+        "label": "slate",
+        "value": 4
+      }
+    ],
+    "answer": "11",
+    "decoys": [
+      "12",
+      "10",
+      "13",
+      "9",
+      "14",
+      "8",
+      "16",
+      "6",
+      "18"
+    ]
+  },
+  "2026-06-08": {
+    "type": "mosaic",
+    "equation": "(purple − pink)(teal + blue)",
+    "quadrants": [
+      {
+        "color": "#9b5de5",
+        "label": "purple",
+        "value": 7
+      },
+      {
+        "color": "#f15bb5",
+        "label": "pink",
+        "value": 4
+      },
+      {
+        "color": "#00f5d4",
+        "label": "teal",
+        "value": 3
+      },
+      {
+        "color": "#00bbf9",
+        "label": "blue",
+        "value": 1
+      }
+    ],
+    "answer": "12",
+    "decoys": [
+      "13",
+      "11",
+      "14",
+      "10",
+      "15",
+      "9",
+      "17",
+      "7",
+      "19"
+    ]
+  },
+  "2026-06-09": {
+    "type": "mosaic",
+    "equation": "jet × fuchsia − (volt + aqua)",
+    "quadrants": [
+      {
+        "color": "#0c0f0a",
+        "label": "jet",
+        "value": 9
+      },
+      {
+        "color": "#ff206e",
+        "label": "fuchsia",
+        "value": 4
+      },
+      {
+        "color": "#fbff12",
+        "label": "volt",
+        "value": 2
+      },
+      {
+        "color": "#41ead4",
+        "label": "aqua",
+        "value": 6
+      }
+    ],
+    "answer": "28",
+    "decoys": [
+      "29",
+      "27",
+      "30",
+      "26",
+      "31",
+      "25",
+      "33",
+      "23",
+      "35"
+    ]
+  },
+  "2026-06-10": {
+    "type": "mosaic",
+    "equation": "(sky + rose) × peach − gold",
+    "quadrants": [
+      {
+        "color": "#70d6ff",
+        "label": "sky",
+        "value": 7
+      },
+      {
+        "color": "#ff70a6",
+        "label": "rose",
+        "value": 4
+      },
+      {
+        "color": "#ff9770",
+        "label": "peach",
+        "value": 1
+      },
+      {
+        "color": "#ffd670",
+        "label": "gold",
+        "value": 8
+      }
+    ],
+    "answer": "3",
+    "decoys": [
+      "4",
+      "2",
+      "5",
+      "1",
+      "6",
+      "0",
+      "8",
+      "-2",
+      "10"
+    ]
+  },
+  "2026-06-11": {
+    "type": "mosaic",
+    "equation": "red × yellow + lime − cobalt",
+    "quadrants": [
+      {
+        "color": "#ff595e",
+        "label": "red",
+        "value": 6
+      },
+      {
+        "color": "#ffca3a",
+        "label": "yellow",
+        "value": 4
+      },
+      {
+        "color": "#8ac926",
+        "label": "lime",
+        "value": 8
+      },
+      {
+        "color": "#1982c4",
+        "label": "cobalt",
+        "value": 9
+      }
+    ],
+    "answer": "23",
+    "decoys": [
+      "24",
+      "22",
+      "25",
+      "21",
+      "26",
+      "20",
+      "28",
+      "18",
+      "30"
+    ]
+  },
+  "2026-06-12": {
+    "type": "mosaic",
+    "equation": "(crimson + amber)(mint − ocean)",
+    "quadrants": [
+      {
+        "color": "#ef476f",
+        "label": "crimson",
+        "value": 9
+      },
+      {
+        "color": "#ffd166",
+        "label": "amber",
+        "value": 5
+      },
+      {
+        "color": "#06d6a0",
+        "label": "mint",
+        "value": 6
+      },
+      {
+        "color": "#118ab2",
+        "label": "ocean",
+        "value": 3
+      }
+    ],
+    "answer": "42",
+    "decoys": [
+      "43",
+      "41",
+      "44",
+      "40",
+      "45",
+      "39",
+      "47",
+      "37",
+      "49"
+    ]
+  },
+  "2026-06-13": {
+    "type": "mosaic",
+    "equation": "indigo × periwinkle − orange × flame",
+    "quadrants": [
+      {
+        "color": "#3d348b",
+        "label": "indigo",
+        "value": 4
+      },
+      {
+        "color": "#7678ed",
+        "label": "periwinkle",
+        "value": 8
+      },
+      {
+        "color": "#f18701",
+        "label": "orange",
+        "value": 3
+      },
+      {
+        "color": "#f35b04",
+        "label": "flame",
+        "value": 5
+      }
+    ],
+    "answer": "17",
+    "decoys": [
+      "18",
+      "16",
+      "19",
+      "15",
+      "20",
+      "14",
+      "22",
+      "12",
+      "24"
+    ]
+  },
+  "2026-06-14": {
+    "type": "mosaic",
+    "equation": "(coral − lemon) × (jade + steel)",
+    "quadrants": [
+      {
+        "color": "#ff6b6b",
+        "label": "coral",
+        "value": 8
+      },
+      {
+        "color": "#ffd93d",
+        "label": "lemon",
+        "value": 1
+      },
+      {
+        "color": "#6bcb77",
+        "label": "jade",
+        "value": 4
+      },
+      {
+        "color": "#4d96ff",
+        "label": "steel",
+        "value": 6
+      }
+    ],
+    "answer": "70",
+    "decoys": [
+      "71",
+      "69",
+      "72",
+      "68",
+      "73",
+      "67",
+      "75",
+      "65",
+      "77"
+    ]
+  },
+  "2026-06-15": {
+    "type": "mosaic",
+    "equation": "ruby + sand × sage − slate",
+    "quadrants": [
+      {
+        "color": "#e63946",
+        "label": "ruby",
+        "value": 8
+      },
+      {
+        "color": "#f4a261",
+        "label": "sand",
+        "value": 4
+      },
+      {
+        "color": "#2a9d8f",
+        "label": "sage",
+        "value": 6
+      },
+      {
+        "color": "#264653",
+        "label": "slate",
+        "value": 5
+      }
+    ],
+    "answer": "27",
+    "decoys": [
+      "28",
+      "26",
+      "29",
+      "25",
+      "30",
+      "24",
+      "32",
+      "22",
+      "34"
+    ]
+  },
+  "2026-06-16": {
+    "type": "mosaic",
+    "equation": "(purple − pink)(teal + blue)",
+    "quadrants": [
+      {
+        "color": "#9b5de5",
+        "label": "purple",
+        "value": 2
+      },
+      {
+        "color": "#f15bb5",
+        "label": "pink",
+        "value": 4
+      },
+      {
+        "color": "#00f5d4",
+        "label": "teal",
+        "value": 1
+      },
+      {
+        "color": "#00bbf9",
+        "label": "blue",
+        "value": 6
+      }
+    ],
+    "answer": "-14",
+    "decoys": [
+      "-13",
+      "-15",
+      "-12",
+      "-16",
+      "-11",
+      "-17",
+      "-9",
+      "-19",
+      "-7"
+    ]
+  },
+  "2026-06-17": {
+    "type": "mosaic",
+    "equation": "jet × fuchsia − (volt + aqua)",
+    "quadrants": [
+      {
+        "color": "#0c0f0a",
+        "label": "jet",
+        "value": 7
+      },
+      {
+        "color": "#ff206e",
+        "label": "fuchsia",
+        "value": 9
+      },
+      {
+        "color": "#fbff12",
+        "label": "volt",
+        "value": 3
+      },
+      {
+        "color": "#41ead4",
+        "label": "aqua",
+        "value": 5
+      }
+    ],
+    "answer": "55",
+    "decoys": [
+      "56",
+      "54",
+      "57",
+      "53",
+      "58",
+      "52",
+      "60",
+      "50",
+      "62"
+    ]
+  },
+  "2026-06-18": {
+    "type": "mosaic",
+    "equation": "(sky + rose) × peach − gold",
+    "quadrants": [
+      {
+        "color": "#70d6ff",
+        "label": "sky",
+        "value": 6
+      },
+      {
+        "color": "#ff70a6",
+        "label": "rose",
+        "value": 1
+      },
+      {
+        "color": "#ff9770",
+        "label": "peach",
+        "value": 2
+      },
+      {
+        "color": "#ffd670",
+        "label": "gold",
+        "value": 5
+      }
+    ],
+    "answer": "9",
+    "decoys": [
+      "10",
+      "8",
+      "11",
+      "7",
+      "12",
+      "6",
+      "14",
+      "4",
+      "16"
+    ]
+  },
+  "2026-06-19": {
+    "type": "mosaic",
+    "equation": "red × yellow + lime − cobalt",
+    "quadrants": [
+      {
+        "color": "#ff595e",
+        "label": "red",
+        "value": 4
+      },
+      {
+        "color": "#ffca3a",
+        "label": "yellow",
+        "value": 2
+      },
+      {
+        "color": "#8ac926",
+        "label": "lime",
+        "value": 5
+      },
+      {
+        "color": "#1982c4",
+        "label": "cobalt",
+        "value": 9
+      }
+    ],
+    "answer": "4",
+    "decoys": [
+      "5",
+      "3",
+      "6",
+      "2",
+      "7",
+      "1",
+      "9",
+      "-1",
+      "11"
+    ]
+  },
+  "2026-06-20": {
+    "type": "mosaic",
+    "equation": "(crimson + amber)(mint − ocean)",
+    "quadrants": [
+      {
+        "color": "#ef476f",
+        "label": "crimson",
+        "value": 6
+      },
+      {
+        "color": "#ffd166",
+        "label": "amber",
+        "value": 4
+      },
+      {
+        "color": "#06d6a0",
+        "label": "mint",
+        "value": 2
+      },
+      {
+        "color": "#118ab2",
+        "label": "ocean",
+        "value": 9
+      }
+    ],
+    "answer": "-70",
+    "decoys": [
+      "-69",
+      "-71",
+      "-68",
+      "-72",
+      "-67",
+      "-73",
+      "-65",
+      "-75",
+      "-63"
+    ]
+  },
+  "2026-06-21": {
+    "type": "mosaic",
+    "equation": "indigo × periwinkle − orange × flame",
+    "quadrants": [
+      {
+        "color": "#3d348b",
+        "label": "indigo",
+        "value": 5
+      },
+      {
+        "color": "#7678ed",
+        "label": "periwinkle",
+        "value": 8
+      },
+      {
+        "color": "#f18701",
+        "label": "orange",
+        "value": 1
+      },
+      {
+        "color": "#f35b04",
+        "label": "flame",
+        "value": 9
+      }
+    ],
+    "answer": "31",
+    "decoys": [
+      "32",
+      "30",
+      "33",
+      "29",
+      "34",
+      "28",
+      "36",
+      "26",
+      "38"
+    ]
+  },
+  "2026-06-22": {
+    "type": "mosaic",
+    "equation": "(coral − lemon) × (jade + steel)",
+    "quadrants": [
+      {
+        "color": "#ff6b6b",
+        "label": "coral",
+        "value": 5
+      },
+      {
+        "color": "#ffd93d",
+        "label": "lemon",
+        "value": 3
+      },
+      {
+        "color": "#6bcb77",
+        "label": "jade",
+        "value": 9
+      },
+      {
+        "color": "#4d96ff",
+        "label": "steel",
+        "value": 2
+      }
+    ],
+    "answer": "22",
+    "decoys": [
+      "23",
+      "21",
+      "24",
+      "20",
+      "25",
+      "19",
+      "27",
+      "17",
+      "29"
+    ]
+  },
+  "2026-06-23": {
+    "type": "mosaic",
+    "equation": "ruby + sand × sage − slate",
+    "quadrants": [
+      {
+        "color": "#e63946",
+        "label": "ruby",
+        "value": 8
+      },
+      {
+        "color": "#f4a261",
+        "label": "sand",
+        "value": 1
+      },
+      {
+        "color": "#2a9d8f",
+        "label": "sage",
+        "value": 7
+      },
+      {
+        "color": "#264653",
+        "label": "slate",
+        "value": 5
+      }
+    ],
+    "answer": "10",
+    "decoys": [
+      "11",
+      "9",
+      "12",
+      "8",
+      "13",
+      "7",
+      "15",
+      "5",
+      "17"
+    ]
+  },
+  "2026-06-24": {
+    "type": "mosaic",
+    "equation": "(purple − pink)(teal + blue)",
+    "quadrants": [
+      {
+        "color": "#9b5de5",
+        "label": "purple",
+        "value": 4
+      },
+      {
+        "color": "#f15bb5",
+        "label": "pink",
+        "value": 3
+      },
+      {
+        "color": "#00f5d4",
+        "label": "teal",
+        "value": 5
+      },
+      {
+        "color": "#00bbf9",
+        "label": "blue",
+        "value": 1
+      }
+    ],
+    "answer": "6",
+    "decoys": [
+      "7",
+      "5",
+      "8",
+      "4",
+      "9",
+      "3",
+      "11",
+      "1",
+      "13"
+    ]
+  },
+  "2026-06-25": {
+    "type": "mosaic",
+    "equation": "jet × fuchsia − (volt + aqua)",
+    "quadrants": [
+      {
+        "color": "#0c0f0a",
+        "label": "jet",
+        "value": 8
+      },
+      {
+        "color": "#ff206e",
+        "label": "fuchsia",
+        "value": 4
+      },
+      {
+        "color": "#fbff12",
+        "label": "volt",
+        "value": 1
+      },
+      {
+        "color": "#41ead4",
+        "label": "aqua",
+        "value": 5
+      }
+    ],
+    "answer": "26",
+    "decoys": [
+      "27",
+      "25",
+      "28",
+      "24",
+      "29",
+      "23",
+      "31",
+      "21",
+      "33"
+    ]
+  },
+  "2026-06-26": {
+    "type": "mosaic",
+    "equation": "(sky + rose) × peach − gold",
+    "quadrants": [
+      {
+        "color": "#70d6ff",
+        "label": "sky",
+        "value": 5
+      },
+      {
+        "color": "#ff70a6",
+        "label": "rose",
+        "value": 8
+      },
+      {
+        "color": "#ff9770",
+        "label": "peach",
+        "value": 6
+      },
+      {
+        "color": "#ffd670",
+        "label": "gold",
+        "value": 4
+      }
+    ],
+    "answer": "74",
+    "decoys": [
+      "75",
+      "73",
+      "76",
+      "72",
+      "77",
+      "71",
+      "79",
+      "69",
+      "81"
+    ]
+  },
+  "2026-06-27": {
+    "type": "mosaic",
+    "equation": "red × yellow + lime − cobalt",
+    "quadrants": [
+      {
+        "color": "#ff595e",
+        "label": "red",
+        "value": 6
+      },
+      {
+        "color": "#ffca3a",
+        "label": "yellow",
+        "value": 7
+      },
+      {
+        "color": "#8ac926",
+        "label": "lime",
+        "value": 2
+      },
+      {
+        "color": "#1982c4",
+        "label": "cobalt",
+        "value": 5
+      }
+    ],
+    "answer": "39",
+    "decoys": [
+      "40",
+      "38",
+      "41",
+      "37",
+      "42",
+      "36",
+      "44",
+      "34",
+      "46"
+    ]
+  },
+  "2026-06-28": {
+    "type": "mosaic",
+    "equation": "(crimson + amber)(mint − ocean)",
+    "quadrants": [
+      {
+        "color": "#ef476f",
+        "label": "crimson",
+        "value": 5
+      },
+      {
+        "color": "#ffd166",
+        "label": "amber",
+        "value": 8
+      },
+      {
+        "color": "#06d6a0",
+        "label": "mint",
+        "value": 7
+      },
+      {
+        "color": "#118ab2",
+        "label": "ocean",
+        "value": 1
+      }
+    ],
+    "answer": "78",
+    "decoys": [
+      "79",
+      "77",
+      "80",
+      "76",
+      "81",
+      "75",
+      "83",
+      "73",
+      "85"
+    ]
+  },
+  "2026-06-29": {
+    "type": "mosaic",
+    "equation": "indigo × periwinkle − orange × flame",
+    "quadrants": [
+      {
+        "color": "#3d348b",
+        "label": "indigo",
+        "value": 9
+      },
+      {
+        "color": "#7678ed",
+        "label": "periwinkle",
+        "value": 1
+      },
+      {
+        "color": "#f18701",
+        "label": "orange",
+        "value": 4
+      },
+      {
+        "color": "#f35b04",
+        "label": "flame",
+        "value": 6
+      }
+    ],
+    "answer": "-15",
+    "decoys": [
+      "-14",
+      "-16",
+      "-13",
+      "-17",
+      "-12",
+      "-18",
+      "-10",
+      "-20",
+      "-8"
+    ]
+  },
+  "2026-06-30": {
+    "type": "mosaic",
+    "equation": "(coral − lemon) × (jade + steel)",
+    "quadrants": [
+      {
+        "color": "#ff6b6b",
+        "label": "coral",
+        "value": 2
+      },
+      {
+        "color": "#ffd93d",
+        "label": "lemon",
+        "value": 1
+      },
+      {
+        "color": "#6bcb77",
+        "label": "jade",
+        "value": 9
+      },
+      {
+        "color": "#4d96ff",
+        "label": "steel",
+        "value": 4
+      }
+    ],
+    "answer": "13",
+    "decoys": [
+      "14",
+      "12",
+      "15",
+      "11",
+      "16",
+      "10",
+      "18",
+      "8",
+      "20"
+    ]
+  },
+  "2026-07-01": {
+    "type": "mosaic",
+    "equation": "ruby + sand × sage − slate",
+    "quadrants": [
+      {
+        "color": "#e63946",
+        "label": "ruby",
+        "value": 8
+      },
+      {
+        "color": "#f4a261",
+        "label": "sand",
+        "value": 9
+      },
+      {
+        "color": "#2a9d8f",
+        "label": "sage",
+        "value": 6
+      },
+      {
+        "color": "#264653",
+        "label": "slate",
+        "value": 4
+      }
+    ],
+    "answer": "58",
+    "decoys": [
+      "59",
+      "57",
+      "60",
+      "56",
+      "61",
+      "55",
+      "63",
+      "53",
+      "65"
+    ]
+  },
+  "2026-07-02": {
+    "type": "mosaic",
+    "equation": "(purple − pink)(teal + blue)",
+    "quadrants": [
+      {
+        "color": "#9b5de5",
+        "label": "purple",
+        "value": 1
+      },
+      {
+        "color": "#f15bb5",
+        "label": "pink",
+        "value": 6
+      },
+      {
+        "color": "#00f5d4",
+        "label": "teal",
+        "value": 8
+      },
+      {
+        "color": "#00bbf9",
+        "label": "blue",
+        "value": 3
+      }
+    ],
+    "answer": "-55",
+    "decoys": [
+      "-54",
+      "-56",
+      "-53",
+      "-57",
+      "-52",
+      "-58",
+      "-50",
+      "-60",
+      "-48"
+    ]
+  },
+  "2026-07-03": {
+    "type": "mosaic",
+    "equation": "jet × fuchsia − (volt + aqua)",
+    "quadrants": [
+      {
+        "color": "#0c0f0a",
+        "label": "jet",
+        "value": 9
+      },
+      {
+        "color": "#ff206e",
+        "label": "fuchsia",
+        "value": 2
+      },
+      {
+        "color": "#fbff12",
+        "label": "volt",
+        "value": 3
+      },
+      {
+        "color": "#41ead4",
+        "label": "aqua",
+        "value": 1
+      }
+    ],
+    "answer": "14",
+    "decoys": [
+      "15",
+      "13",
+      "16",
+      "12",
+      "17",
+      "11",
+      "19",
+      "9",
+      "21"
+    ]
+  },
+  "2026-07-04": {
+    "type": "mosaic",
+    "equation": "(sky + rose) × peach − gold",
+    "quadrants": [
+      {
+        "color": "#70d6ff",
+        "label": "sky",
+        "value": 6
+      },
+      {
+        "color": "#ff70a6",
+        "label": "rose",
+        "value": 8
+      },
+      {
+        "color": "#ff9770",
+        "label": "peach",
+        "value": 4
+      },
+      {
+        "color": "#ffd670",
+        "label": "gold",
+        "value": 1
+      }
+    ],
+    "answer": "55",
+    "decoys": [
+      "56",
+      "54",
+      "57",
+      "53",
+      "58",
+      "52",
+      "60",
+      "50",
+      "62"
+    ]
+  },
+  "2026-07-05": {
+    "type": "mosaic",
+    "equation": "red × yellow + lime − cobalt",
+    "quadrants": [
+      {
+        "color": "#ff595e",
+        "label": "red",
+        "value": 4
+      },
+      {
+        "color": "#ffca3a",
+        "label": "yellow",
+        "value": 3
+      },
+      {
+        "color": "#8ac926",
+        "label": "lime",
+        "value": 9
+      },
+      {
+        "color": "#1982c4",
+        "label": "cobalt",
+        "value": 2
+      }
+    ],
+    "answer": "19",
+    "decoys": [
+      "20",
+      "18",
+      "21",
+      "17",
+      "22",
+      "16",
+      "24",
+      "14",
+      "26"
+    ]
+  },
+  "2026-07-06": {
+    "type": "mosaic",
+    "equation": "(crimson + amber)(mint − ocean)",
+    "quadrants": [
+      {
+        "color": "#ef476f",
+        "label": "crimson",
+        "value": 9
+      },
+      {
+        "color": "#ffd166",
+        "label": "amber",
+        "value": 1
+      },
+      {
+        "color": "#06d6a0",
+        "label": "mint",
+        "value": 7
+      },
+      {
+        "color": "#118ab2",
+        "label": "ocean",
+        "value": 2
+      }
+    ],
+    "answer": "50",
+    "decoys": [
+      "51",
+      "49",
+      "52",
+      "48",
+      "53",
+      "47",
+      "55",
+      "45",
+      "57"
+    ]
+  },
+  "2026-07-07": {
+    "type": "mosaic",
+    "equation": "indigo × periwinkle − orange × flame",
+    "quadrants": [
+      {
+        "color": "#3d348b",
+        "label": "indigo",
+        "value": 8
+      },
+      {
+        "color": "#7678ed",
+        "label": "periwinkle",
+        "value": 7
+      },
+      {
+        "color": "#f18701",
+        "label": "orange",
+        "value": 1
+      },
+      {
+        "color": "#f35b04",
+        "label": "flame",
+        "value": 2
+      }
+    ],
+    "answer": "54",
+    "decoys": [
+      "55",
+      "53",
+      "56",
+      "52",
+      "57",
+      "51",
+      "59",
+      "49",
+      "61"
+    ]
+  },
+  "2026-07-08": {
+    "type": "mosaic",
+    "equation": "(coral − lemon) × (jade + steel)",
+    "quadrants": [
+      {
+        "color": "#ff6b6b",
+        "label": "coral",
+        "value": 4
+      },
+      {
+        "color": "#ffd93d",
+        "label": "lemon",
+        "value": 8
+      },
+      {
+        "color": "#6bcb77",
+        "label": "jade",
+        "value": 2
+      },
+      {
+        "color": "#4d96ff",
+        "label": "steel",
+        "value": 1
+      }
+    ],
+    "answer": "-12",
+    "decoys": [
+      "-11",
+      "-13",
+      "-10",
+      "-14",
+      "-9",
+      "-15",
+      "-7",
+      "-17",
+      "-5"
+    ]
+  },
+  "2026-07-09": {
+    "type": "mosaic",
+    "equation": "ruby + sand × sage − slate",
+    "quadrants": [
+      {
+        "color": "#e63946",
+        "label": "ruby",
+        "value": 7
+      },
+      {
+        "color": "#f4a261",
+        "label": "sand",
+        "value": 6
+      },
+      {
+        "color": "#2a9d8f",
+        "label": "sage",
+        "value": 8
+      },
+      {
+        "color": "#264653",
+        "label": "slate",
+        "value": 2
+      }
+    ],
+    "answer": "53",
+    "decoys": [
+      "54",
+      "52",
+      "55",
+      "51",
+      "56",
+      "50",
+      "58",
+      "48",
+      "60"
+    ]
+  },
+  "2026-07-10": {
+    "type": "mosaic",
+    "equation": "(purple − pink)(teal + blue)",
+    "quadrants": [
+      {
+        "color": "#9b5de5",
+        "label": "purple",
+        "value": 2
+      },
+      {
+        "color": "#f15bb5",
+        "label": "pink",
+        "value": 9
+      },
+      {
+        "color": "#00f5d4",
+        "label": "teal",
+        "value": 1
+      },
+      {
+        "color": "#00bbf9",
+        "label": "blue",
+        "value": 5
+      }
+    ],
+    "answer": "-42",
+    "decoys": [
+      "-41",
+      "-43",
+      "-40",
+      "-44",
+      "-39",
+      "-45",
+      "-37",
+      "-47",
+      "-35"
+    ]
+  },
+  "2026-07-11": {
+    "type": "mosaic",
+    "equation": "jet × fuchsia − (volt + aqua)",
+    "quadrants": [
+      {
+        "color": "#0c0f0a",
+        "label": "jet",
+        "value": 2
+      },
+      {
+        "color": "#ff206e",
+        "label": "fuchsia",
+        "value": 3
+      },
+      {
+        "color": "#fbff12",
+        "label": "volt",
+        "value": 5
+      },
+      {
+        "color": "#41ead4",
+        "label": "aqua",
+        "value": 1
+      }
+    ],
+    "answer": "0",
+    "decoys": [
+      "1",
+      "-1",
+      "2",
+      "-2",
+      "3",
+      "-3",
+      "5",
+      "-5",
+      "7"
+    ]
+  },
+  "2026-07-12": {
+    "type": "mosaic",
+    "equation": "(sky + rose) × peach − gold",
+    "quadrants": [
+      {
+        "color": "#70d6ff",
+        "label": "sky",
+        "value": 1
+      },
+      {
+        "color": "#ff70a6",
+        "label": "rose",
+        "value": 5
+      },
+      {
+        "color": "#ff9770",
+        "label": "peach",
+        "value": 9
+      },
+      {
+        "color": "#ffd670",
+        "label": "gold",
+        "value": 4
+      }
+    ],
+    "answer": "50",
+    "decoys": [
+      "51",
+      "49",
+      "52",
+      "48",
+      "53",
+      "47",
+      "55",
+      "45",
+      "57"
+    ]
+  },
+  "2026-07-13": {
+    "type": "mosaic",
+    "equation": "red × yellow + lime − cobalt",
+    "quadrants": [
+      {
+        "color": "#ff595e",
+        "label": "red",
+        "value": 8
+      },
+      {
+        "color": "#ffca3a",
+        "label": "yellow",
+        "value": 6
+      },
+      {
+        "color": "#8ac926",
+        "label": "lime",
+        "value": 9
+      },
+      {
+        "color": "#1982c4",
+        "label": "cobalt",
+        "value": 2
+      }
+    ],
+    "answer": "55",
+    "decoys": [
+      "56",
+      "54",
+      "57",
+      "53",
+      "58",
+      "52",
+      "60",
+      "50",
+      "62"
+    ]
+  },
+  "2026-07-14": {
+    "type": "mosaic",
+    "equation": "(crimson + amber)(mint − ocean)",
+    "quadrants": [
+      {
+        "color": "#ef476f",
+        "label": "crimson",
+        "value": 9
+      },
+      {
+        "color": "#ffd166",
+        "label": "amber",
+        "value": 7
+      },
+      {
+        "color": "#06d6a0",
+        "label": "mint",
+        "value": 5
+      },
+      {
+        "color": "#118ab2",
+        "label": "ocean",
+        "value": 3
+      }
+    ],
+    "answer": "32",
+    "decoys": [
+      "33",
+      "31",
+      "34",
+      "30",
+      "35",
+      "29",
+      "37",
+      "27",
+      "39"
+    ]
+  },
+  "2026-07-15": {
+    "type": "mosaic",
+    "equation": "indigo × periwinkle − orange × flame",
+    "quadrants": [
+      {
+        "color": "#3d348b",
+        "label": "indigo",
+        "value": 1
+      },
+      {
+        "color": "#7678ed",
+        "label": "periwinkle",
+        "value": 9
+      },
+      {
+        "color": "#f18701",
+        "label": "orange",
+        "value": 2
+      },
+      {
+        "color": "#f35b04",
+        "label": "flame",
+        "value": 3
+      }
+    ],
+    "answer": "3",
+    "decoys": [
+      "4",
+      "2",
+      "5",
+      "1",
+      "6",
+      "0",
+      "8",
+      "-2",
+      "10"
+    ]
+  },
+  "2026-07-16": {
+    "type": "mosaic",
+    "equation": "(coral − lemon) × (jade + steel)",
+    "quadrants": [
+      {
+        "color": "#ff6b6b",
+        "label": "coral",
+        "value": 7
+      },
+      {
+        "color": "#ffd93d",
+        "label": "lemon",
+        "value": 8
+      },
+      {
+        "color": "#6bcb77",
+        "label": "jade",
+        "value": 1
+      },
+      {
+        "color": "#4d96ff",
+        "label": "steel",
+        "value": 2
+      }
+    ],
+    "answer": "-3",
+    "decoys": [
+      "-2",
+      "-4",
+      "-1",
+      "-5",
+      "0",
+      "-6",
+      "2",
+      "-8",
+      "4"
+    ]
+  },
+  "2026-07-17": {
+    "type": "mosaic",
+    "equation": "ruby + sand × sage − slate",
+    "quadrants": [
+      {
+        "color": "#e63946",
+        "label": "ruby",
+        "value": 2
+      },
+      {
+        "color": "#f4a261",
+        "label": "sand",
+        "value": 3
+      },
+      {
+        "color": "#2a9d8f",
+        "label": "sage",
+        "value": 5
+      },
+      {
+        "color": "#264653",
+        "label": "slate",
+        "value": 4
+      }
+    ],
+    "answer": "13",
+    "decoys": [
+      "14",
+      "12",
+      "15",
+      "11",
+      "16",
+      "10",
+      "18",
+      "8",
+      "20"
+    ]
+  },
+  "2026-07-18": {
+    "type": "mosaic",
+    "equation": "(purple − pink)(teal + blue)",
+    "quadrants": [
+      {
+        "color": "#9b5de5",
+        "label": "purple",
+        "value": 5
+      },
+      {
+        "color": "#f15bb5",
+        "label": "pink",
+        "value": 4
+      },
+      {
+        "color": "#00f5d4",
+        "label": "teal",
+        "value": 6
+      },
+      {
+        "color": "#00bbf9",
+        "label": "blue",
+        "value": 8
+      }
+    ],
+    "answer": "14",
+    "decoys": [
+      "15",
+      "13",
+      "16",
+      "12",
+      "17",
+      "11",
+      "19",
+      "9",
+      "21"
+    ]
+  },
+  "2026-07-19": {
+    "type": "mosaic",
+    "equation": "jet × fuchsia − (volt + aqua)",
+    "quadrants": [
+      {
+        "color": "#0c0f0a",
+        "label": "jet",
+        "value": 9
+      },
+      {
+        "color": "#ff206e",
+        "label": "fuchsia",
+        "value": 3
+      },
+      {
+        "color": "#fbff12",
+        "label": "volt",
+        "value": 7
+      },
+      {
+        "color": "#41ead4",
+        "label": "aqua",
+        "value": 4
+      }
+    ],
+    "answer": "16",
+    "decoys": [
+      "17",
+      "15",
+      "18",
+      "14",
+      "19",
+      "13",
+      "21",
+      "11",
+      "23"
+    ]
+  },
+  "2026-07-20": {
+    "type": "mosaic",
+    "equation": "(sky + rose) × peach − gold",
+    "quadrants": [
+      {
+        "color": "#70d6ff",
+        "label": "sky",
+        "value": 2
+      },
+      {
+        "color": "#ff70a6",
+        "label": "rose",
+        "value": 9
+      },
+      {
+        "color": "#ff9770",
+        "label": "peach",
+        "value": 5
+      },
+      {
+        "color": "#ffd670",
+        "label": "gold",
+        "value": 4
+      }
+    ],
+    "answer": "51",
+    "decoys": [
+      "52",
+      "50",
+      "53",
+      "49",
+      "54",
+      "48",
+      "56",
+      "46",
+      "58"
+    ]
+  },
+  "2026-07-21": {
+    "type": "mosaic",
+    "equation": "red × yellow + lime − cobalt",
+    "quadrants": [
+      {
+        "color": "#ff595e",
+        "label": "red",
+        "value": 1
+      },
+      {
+        "color": "#ffca3a",
+        "label": "yellow",
+        "value": 5
+      },
+      {
+        "color": "#8ac926",
+        "label": "lime",
+        "value": 4
+      },
+      {
+        "color": "#1982c4",
+        "label": "cobalt",
+        "value": 6
+      }
+    ],
+    "answer": "3",
+    "decoys": [
+      "4",
+      "2",
+      "5",
+      "1",
+      "6",
+      "0",
+      "8",
+      "-2",
+      "10"
+    ]
+  },
+  "2026-07-22": {
+    "type": "mosaic",
+    "equation": "(crimson + amber)(mint − ocean)",
+    "quadrants": [
+      {
+        "color": "#ef476f",
+        "label": "crimson",
+        "value": 7
+      },
+      {
+        "color": "#ffd166",
+        "label": "amber",
+        "value": 2
+      },
+      {
+        "color": "#06d6a0",
+        "label": "mint",
+        "value": 9
+      },
+      {
+        "color": "#118ab2",
+        "label": "ocean",
+        "value": 4
+      }
+    ],
+    "answer": "45",
+    "decoys": [
+      "46",
+      "44",
+      "47",
+      "43",
+      "48",
+      "42",
+      "50",
+      "40",
+      "52"
+    ]
+  },
+  "2026-07-23": {
+    "type": "mosaic",
+    "equation": "indigo × periwinkle − orange × flame",
+    "quadrants": [
+      {
+        "color": "#3d348b",
+        "label": "indigo",
+        "value": 8
+      },
+      {
+        "color": "#7678ed",
+        "label": "periwinkle",
+        "value": 1
+      },
+      {
+        "color": "#f18701",
+        "label": "orange",
+        "value": 7
+      },
+      {
+        "color": "#f35b04",
+        "label": "flame",
+        "value": 9
+      }
+    ],
+    "answer": "-55",
+    "decoys": [
+      "-54",
+      "-56",
+      "-53",
+      "-57",
+      "-52",
+      "-58",
+      "-50",
+      "-60",
+      "-48"
+    ]
+  },
+  "2026-07-24": {
+    "type": "mosaic",
+    "equation": "(coral − lemon) × (jade + steel)",
+    "quadrants": [
+      {
+        "color": "#ff6b6b",
+        "label": "coral",
+        "value": 6
+      },
+      {
+        "color": "#ffd93d",
+        "label": "lemon",
+        "value": 8
+      },
+      {
+        "color": "#6bcb77",
+        "label": "jade",
+        "value": 4
+      },
+      {
+        "color": "#4d96ff",
+        "label": "steel",
+        "value": 3
+      }
+    ],
+    "answer": "-14",
+    "decoys": [
+      "-13",
+      "-15",
+      "-12",
+      "-16",
+      "-11",
+      "-17",
+      "-9",
+      "-19",
+      "-7"
+    ]
+  },
+  "2026-07-25": {
+    "type": "mosaic",
+    "equation": "ruby + sand × sage − slate",
+    "quadrants": [
+      {
+        "color": "#e63946",
+        "label": "ruby",
+        "value": 2
+      },
+      {
+        "color": "#f4a261",
+        "label": "sand",
+        "value": 6
+      },
+      {
+        "color": "#2a9d8f",
+        "label": "sage",
+        "value": 5
+      },
+      {
+        "color": "#264653",
+        "label": "slate",
+        "value": 8
+      }
+    ],
+    "answer": "24",
+    "decoys": [
+      "25",
+      "23",
+      "26",
+      "22",
+      "27",
+      "21",
+      "29",
+      "19",
+      "31"
+    ]
+  },
+  "2026-07-26": {
+    "type": "mosaic",
+    "equation": "(purple − pink)(teal + blue)",
+    "quadrants": [
+      {
+        "color": "#9b5de5",
+        "label": "purple",
+        "value": 3
+      },
+      {
+        "color": "#f15bb5",
+        "label": "pink",
+        "value": 2
+      },
+      {
+        "color": "#00f5d4",
+        "label": "teal",
+        "value": 6
+      },
+      {
+        "color": "#00bbf9",
+        "label": "blue",
+        "value": 1
+      }
+    ],
+    "answer": "7",
+    "decoys": [
+      "8",
+      "6",
+      "9",
+      "5",
+      "10",
+      "4",
+      "12",
+      "2",
+      "14"
+    ]
+  },
+  "2026-07-27": {
+    "type": "mosaic",
+    "equation": "jet × fuchsia − (volt + aqua)",
+    "quadrants": [
+      {
+        "color": "#0c0f0a",
+        "label": "jet",
+        "value": 6
+      },
+      {
+        "color": "#ff206e",
+        "label": "fuchsia",
+        "value": 8
+      },
+      {
+        "color": "#fbff12",
+        "label": "volt",
+        "value": 7
+      },
+      {
+        "color": "#41ead4",
+        "label": "aqua",
+        "value": 1
+      }
+    ],
+    "answer": "40",
+    "decoys": [
+      "41",
+      "39",
+      "42",
+      "38",
+      "43",
+      "37",
+      "45",
+      "35",
+      "47"
+    ]
+  },
+  "2026-07-28": {
+    "type": "mosaic",
+    "equation": "(sky + rose) × peach − gold",
+    "quadrants": [
+      {
+        "color": "#70d6ff",
+        "label": "sky",
+        "value": 6
+      },
+      {
+        "color": "#ff70a6",
+        "label": "rose",
+        "value": 3
+      },
+      {
+        "color": "#ff9770",
+        "label": "peach",
+        "value": 5
+      },
+      {
+        "color": "#ffd670",
+        "label": "gold",
+        "value": 8
+      }
+    ],
+    "answer": "37",
+    "decoys": [
+      "38",
+      "36",
+      "39",
+      "35",
+      "40",
+      "34",
+      "42",
+      "32",
+      "44"
+    ]
+  },
+  "2026-07-29": {
+    "type": "mosaic",
+    "equation": "red × yellow + lime − cobalt",
+    "quadrants": [
+      {
+        "color": "#ff595e",
+        "label": "red",
+        "value": 1
+      },
+      {
+        "color": "#ffca3a",
+        "label": "yellow",
+        "value": 3
+      },
+      {
+        "color": "#8ac926",
+        "label": "lime",
+        "value": 5
+      },
+      {
+        "color": "#1982c4",
+        "label": "cobalt",
+        "value": 4
+      }
+    ],
+    "answer": "4",
+    "decoys": [
+      "5",
+      "3",
+      "6",
+      "2",
+      "7",
+      "1",
+      "9",
+      "-1",
+      "11"
+    ]
+  },
+  "2026-07-30": {
+    "type": "mosaic",
+    "equation": "(crimson + amber)(mint − ocean)",
+    "quadrants": [
+      {
+        "color": "#ef476f",
+        "label": "crimson",
+        "value": 2
+      },
+      {
+        "color": "#ffd166",
+        "label": "amber",
+        "value": 9
+      },
+      {
+        "color": "#06d6a0",
+        "label": "mint",
+        "value": 1
+      },
+      {
+        "color": "#118ab2",
+        "label": "ocean",
+        "value": 8
+      }
+    ],
+    "answer": "-77",
+    "decoys": [
+      "-76",
+      "-78",
+      "-75",
+      "-79",
+      "-74",
+      "-80",
+      "-72",
+      "-82",
+      "-70"
+    ]
+  },
+  "2026-07-31": {
+    "type": "mosaic",
+    "equation": "indigo × periwinkle − orange × flame",
+    "quadrants": [
+      {
+        "color": "#3d348b",
+        "label": "indigo",
+        "value": 1
+      },
+      {
+        "color": "#7678ed",
+        "label": "periwinkle",
+        "value": 9
+      },
+      {
+        "color": "#f18701",
+        "label": "orange",
+        "value": 2
+      },
+      {
+        "color": "#f35b04",
+        "label": "flame",
+        "value": 3
+      }
+    ],
+    "answer": "3",
+    "decoys": [
+      "4",
+      "2",
+      "5",
+      "1",
+      "6",
+      "0",
+      "8",
+      "-2",
+      "10"
+    ]
+  },
+  "2026-08-01": {
+    "type": "mosaic",
+    "equation": "(coral − lemon) × (jade + steel)",
+    "quadrants": [
+      {
+        "color": "#ff6b6b",
+        "label": "coral",
+        "value": 4
+      },
+      {
+        "color": "#ffd93d",
+        "label": "lemon",
+        "value": 7
+      },
+      {
+        "color": "#6bcb77",
+        "label": "jade",
+        "value": 2
+      },
+      {
+        "color": "#4d96ff",
+        "label": "steel",
+        "value": 1
+      }
+    ],
+    "answer": "-9",
+    "decoys": [
+      "-8",
+      "-10",
+      "-7",
+      "-11",
+      "-6",
+      "-12",
+      "-4",
+      "-14",
+      "-2"
+    ]
+  },
+  "2026-08-02": {
+    "type": "mosaic",
+    "equation": "ruby + sand × sage − slate",
+    "quadrants": [
+      {
+        "color": "#e63946",
+        "label": "ruby",
+        "value": 7
+      },
+      {
+        "color": "#f4a261",
+        "label": "sand",
+        "value": 2
+      },
+      {
+        "color": "#2a9d8f",
+        "label": "sage",
+        "value": 3
+      },
+      {
+        "color": "#264653",
+        "label": "slate",
+        "value": 1
+      }
+    ],
+    "answer": "12",
+    "decoys": [
+      "13",
+      "11",
+      "14",
+      "10",
+      "15",
+      "9",
+      "17",
+      "7",
+      "19"
+    ]
+  },
+  "2026-08-03": {
+    "type": "mosaic",
+    "equation": "(purple − pink)(teal + blue)",
+    "quadrants": [
+      {
+        "color": "#9b5de5",
+        "label": "purple",
+        "value": 4
+      },
+      {
+        "color": "#f15bb5",
+        "label": "pink",
+        "value": 2
+      },
+      {
+        "color": "#00f5d4",
+        "label": "teal",
+        "value": 7
+      },
+      {
+        "color": "#00bbf9",
+        "label": "blue",
+        "value": 1
+      }
+    ],
+    "answer": "16",
+    "decoys": [
+      "17",
+      "15",
+      "18",
+      "14",
+      "19",
+      "13",
+      "21",
+      "11",
+      "23"
+    ]
+  },
+  "2026-08-04": {
+    "type": "mosaic",
+    "equation": "jet × fuchsia − (volt + aqua)",
+    "quadrants": [
+      {
+        "color": "#0c0f0a",
+        "label": "jet",
+        "value": 2
+      },
+      {
+        "color": "#ff206e",
+        "label": "fuchsia",
+        "value": 3
+      },
+      {
+        "color": "#fbff12",
+        "label": "volt",
+        "value": 5
+      },
+      {
+        "color": "#41ead4",
+        "label": "aqua",
+        "value": 1
+      }
+    ],
+    "answer": "0",
+    "decoys": [
+      "1",
+      "-1",
+      "2",
+      "-2",
+      "3",
+      "-3",
+      "5",
+      "-5",
+      "7"
+    ]
+  },
+  "2026-08-05": {
+    "type": "mosaic",
+    "equation": "(sky + rose) × peach − gold",
+    "quadrants": [
+      {
+        "color": "#70d6ff",
+        "label": "sky",
+        "value": 8
+      },
+      {
+        "color": "#ff70a6",
+        "label": "rose",
+        "value": 7
+      },
+      {
+        "color": "#ff9770",
+        "label": "peach",
+        "value": 1
+      },
+      {
+        "color": "#ffd670",
+        "label": "gold",
+        "value": 5
+      }
+    ],
+    "answer": "10",
+    "decoys": [
+      "11",
+      "9",
+      "12",
+      "8",
+      "13",
+      "7",
+      "15",
+      "5",
+      "17"
+    ]
+  },
+  "2026-08-06": {
+    "type": "mosaic",
+    "equation": "red × yellow + lime − cobalt",
+    "quadrants": [
+      {
+        "color": "#ff595e",
+        "label": "red",
+        "value": 9
+      },
+      {
+        "color": "#ffca3a",
+        "label": "yellow",
+        "value": 2
+      },
+      {
+        "color": "#8ac926",
+        "label": "lime",
+        "value": 6
+      },
+      {
+        "color": "#1982c4",
+        "label": "cobalt",
+        "value": 7
+      }
+    ],
+    "answer": "17",
+    "decoys": [
+      "18",
+      "16",
+      "19",
+      "15",
+      "20",
+      "14",
+      "22",
+      "12",
+      "24"
+    ]
+  },
+  "2026-08-07": {
+    "type": "mosaic",
+    "equation": "(crimson + amber)(mint − ocean)",
+    "quadrants": [
+      {
+        "color": "#ef476f",
+        "label": "crimson",
+        "value": 5
+      },
+      {
+        "color": "#ffd166",
+        "label": "amber",
+        "value": 9
+      },
+      {
+        "color": "#06d6a0",
+        "label": "mint",
+        "value": 1
+      },
+      {
+        "color": "#118ab2",
+        "label": "ocean",
+        "value": 8
+      }
+    ],
+    "answer": "-98",
+    "decoys": [
+      "-97",
+      "-99",
+      "-96",
+      "-100",
+      "-95",
+      "-101",
+      "-93",
+      "-103",
+      "-91"
+    ]
+  },
+  "2026-08-08": {
+    "type": "mosaic",
+    "equation": "indigo × periwinkle − orange × flame",
+    "quadrants": [
+      {
+        "color": "#3d348b",
+        "label": "indigo",
+        "value": 5
+      },
+      {
+        "color": "#7678ed",
+        "label": "periwinkle",
+        "value": 7
+      },
+      {
+        "color": "#f18701",
+        "label": "orange",
+        "value": 1
+      },
+      {
+        "color": "#f35b04",
+        "label": "flame",
+        "value": 9
+      }
+    ],
+    "answer": "26",
+    "decoys": [
+      "27",
+      "25",
+      "28",
+      "24",
+      "29",
+      "23",
+      "31",
+      "21",
+      "33"
+    ]
+  },
+  "2026-08-09": {
+    "type": "mosaic",
+    "equation": "(coral − lemon) × (jade + steel)",
+    "quadrants": [
+      {
+        "color": "#ff6b6b",
+        "label": "coral",
+        "value": 4
+      },
+      {
+        "color": "#ffd93d",
+        "label": "lemon",
+        "value": 7
+      },
+      {
+        "color": "#6bcb77",
+        "label": "jade",
+        "value": 8
+      },
+      {
+        "color": "#4d96ff",
+        "label": "steel",
+        "value": 6
+      }
+    ],
+    "answer": "-42",
+    "decoys": [
+      "-41",
+      "-43",
+      "-40",
+      "-44",
+      "-39",
+      "-45",
+      "-37",
+      "-47",
+      "-35"
+    ]
+  },
+  "2026-08-10": {
+    "type": "mosaic",
+    "equation": "ruby + sand × sage − slate",
+    "quadrants": [
+      {
+        "color": "#e63946",
+        "label": "ruby",
+        "value": 9
+      },
+      {
+        "color": "#f4a261",
+        "label": "sand",
+        "value": 1
+      },
+      {
+        "color": "#2a9d8f",
+        "label": "sage",
+        "value": 7
+      },
+      {
+        "color": "#264653",
+        "label": "slate",
+        "value": 5
+      }
+    ],
+    "answer": "11",
+    "decoys": [
+      "12",
+      "10",
+      "13",
+      "9",
+      "14",
+      "8",
+      "16",
+      "6",
+      "18"
+    ]
+  },
+  "2026-08-11": {
+    "type": "mosaic",
+    "equation": "(purple − pink)(teal + blue)",
+    "quadrants": [
+      {
+        "color": "#9b5de5",
+        "label": "purple",
+        "value": 5
+      },
+      {
+        "color": "#f15bb5",
+        "label": "pink",
+        "value": 8
+      },
+      {
+        "color": "#00f5d4",
+        "label": "teal",
+        "value": 9
+      },
+      {
+        "color": "#00bbf9",
+        "label": "blue",
+        "value": 2
+      }
+    ],
+    "answer": "-33",
+    "decoys": [
+      "-32",
+      "-34",
+      "-31",
+      "-35",
+      "-30",
+      "-36",
+      "-28",
+      "-38",
+      "-26"
+    ]
+  },
+  "2026-08-12": {
+    "type": "mosaic",
+    "equation": "jet × fuchsia − (volt + aqua)",
+    "quadrants": [
+      {
+        "color": "#0c0f0a",
+        "label": "jet",
+        "value": 3
+      },
+      {
+        "color": "#ff206e",
+        "label": "fuchsia",
+        "value": 7
+      },
+      {
+        "color": "#fbff12",
+        "label": "volt",
+        "value": 5
+      },
+      {
+        "color": "#41ead4",
+        "label": "aqua",
+        "value": 6
+      }
+    ],
+    "answer": "10",
+    "decoys": [
+      "11",
+      "9",
+      "12",
+      "8",
+      "13",
+      "7",
+      "15",
+      "5",
+      "17"
+    ]
+  },
+  "2026-08-13": {
+    "type": "mosaic",
+    "equation": "(sky + rose) × peach − gold",
+    "quadrants": [
+      {
+        "color": "#70d6ff",
+        "label": "sky",
+        "value": 1
+      },
+      {
+        "color": "#ff70a6",
+        "label": "rose",
+        "value": 8
+      },
+      {
+        "color": "#ff9770",
+        "label": "peach",
+        "value": 9
+      },
+      {
+        "color": "#ffd670",
+        "label": "gold",
+        "value": 6
+      }
+    ],
+    "answer": "75",
+    "decoys": [
+      "76",
+      "74",
+      "77",
+      "73",
+      "78",
+      "72",
+      "80",
+      "70",
+      "82"
+    ]
+  },
+  "2026-08-14": {
+    "type": "mosaic",
+    "equation": "red × yellow + lime − cobalt",
+    "quadrants": [
+      {
+        "color": "#ff595e",
+        "label": "red",
+        "value": 7
+      },
+      {
+        "color": "#ffca3a",
+        "label": "yellow",
+        "value": 4
+      },
+      {
+        "color": "#8ac926",
+        "label": "lime",
+        "value": 2
+      },
+      {
+        "color": "#1982c4",
+        "label": "cobalt",
+        "value": 8
+      }
+    ],
+    "answer": "22",
+    "decoys": [
+      "23",
+      "21",
+      "24",
+      "20",
+      "25",
+      "19",
+      "27",
+      "17",
+      "29"
+    ]
+  },
+  "2026-08-15": {
+    "type": "mosaic",
+    "equation": "(crimson + amber)(mint − ocean)",
+    "quadrants": [
+      {
+        "color": "#ef476f",
+        "label": "crimson",
+        "value": 8
+      },
+      {
+        "color": "#ffd166",
+        "label": "amber",
+        "value": 9
+      },
+      {
+        "color": "#06d6a0",
+        "label": "mint",
+        "value": 6
+      },
+      {
+        "color": "#118ab2",
+        "label": "ocean",
+        "value": 2
+      }
+    ],
+    "answer": "68",
+    "decoys": [
+      "69",
+      "67",
+      "70",
+      "66",
+      "71",
+      "65",
+      "73",
+      "63",
+      "75"
+    ]
+  },
+  "2026-08-16": {
+    "type": "mosaic",
+    "equation": "indigo × periwinkle − orange × flame",
+    "quadrants": [
+      {
+        "color": "#3d348b",
+        "label": "indigo",
+        "value": 2
+      },
+      {
+        "color": "#7678ed",
+        "label": "periwinkle",
+        "value": 3
+      },
+      {
+        "color": "#f18701",
+        "label": "orange",
+        "value": 5
+      },
+      {
+        "color": "#f35b04",
+        "label": "flame",
+        "value": 7
+      }
+    ],
+    "answer": "-29",
+    "decoys": [
+      "-28",
+      "-30",
+      "-27",
+      "-31",
+      "-26",
+      "-32",
+      "-24",
+      "-34",
+      "-22"
+    ]
+  },
+  "2026-08-17": {
+    "type": "mosaic",
+    "equation": "(coral − lemon) × (jade + steel)",
+    "quadrants": [
+      {
+        "color": "#ff6b6b",
+        "label": "coral",
+        "value": 2
+      },
+      {
+        "color": "#ffd93d",
+        "label": "lemon",
+        "value": 3
+      },
+      {
+        "color": "#6bcb77",
+        "label": "jade",
+        "value": 9
+      },
+      {
+        "color": "#4d96ff",
+        "label": "steel",
+        "value": 8
+      }
+    ],
+    "answer": "-17",
+    "decoys": [
+      "-16",
+      "-18",
+      "-15",
+      "-19",
+      "-14",
+      "-20",
+      "-12",
+      "-22",
+      "-10"
+    ]
+  },
+  "2026-08-18": {
+    "type": "mosaic",
+    "equation": "ruby + sand × sage − slate",
+    "quadrants": [
+      {
+        "color": "#e63946",
+        "label": "ruby",
+        "value": 4
+      },
+      {
+        "color": "#f4a261",
+        "label": "sand",
+        "value": 2
+      },
+      {
+        "color": "#2a9d8f",
+        "label": "sage",
+        "value": 3
+      },
+      {
+        "color": "#264653",
+        "label": "slate",
+        "value": 7
+      }
+    ],
+    "answer": "3",
+    "decoys": [
+      "4",
+      "2",
+      "5",
+      "1",
+      "6",
+      "0",
+      "8",
+      "-2",
+      "10"
+    ]
+  },
+  "2026-08-19": {
+    "type": "mosaic",
+    "equation": "(purple − pink)(teal + blue)",
+    "quadrants": [
+      {
+        "color": "#9b5de5",
+        "label": "purple",
+        "value": 5
+      },
+      {
+        "color": "#f15bb5",
+        "label": "pink",
+        "value": 6
+      },
+      {
+        "color": "#00f5d4",
+        "label": "teal",
+        "value": 8
+      },
+      {
+        "color": "#00bbf9",
+        "label": "blue",
+        "value": 4
+      }
+    ],
+    "answer": "-12",
+    "decoys": [
+      "-11",
+      "-13",
+      "-10",
+      "-14",
+      "-9",
+      "-15",
+      "-7",
+      "-17",
+      "-5"
+    ]
+  },
+  "2026-08-20": {
+    "type": "mosaic",
+    "equation": "jet × fuchsia − (volt + aqua)",
+    "quadrants": [
+      {
+        "color": "#0c0f0a",
+        "label": "jet",
+        "value": 3
+      },
+      {
+        "color": "#ff206e",
+        "label": "fuchsia",
+        "value": 1
+      },
+      {
+        "color": "#fbff12",
+        "label": "volt",
+        "value": 2
+      },
+      {
+        "color": "#41ead4",
+        "label": "aqua",
+        "value": 6
+      }
+    ],
+    "answer": "-5",
+    "decoys": [
+      "-4",
+      "-6",
+      "-3",
+      "-7",
+      "-2",
+      "-8",
+      "0",
+      "-10",
+      "2"
+    ]
+  },
+  "2026-08-21": {
+    "type": "mosaic",
+    "equation": "(sky + rose) × peach − gold",
+    "quadrants": [
+      {
+        "color": "#70d6ff",
+        "label": "sky",
+        "value": 2
+      },
+      {
+        "color": "#ff70a6",
+        "label": "rose",
+        "value": 3
+      },
+      {
+        "color": "#ff9770",
+        "label": "peach",
+        "value": 7
+      },
+      {
+        "color": "#ffd670",
+        "label": "gold",
+        "value": 5
+      }
+    ],
+    "answer": "30",
+    "decoys": [
+      "31",
+      "29",
+      "32",
+      "28",
+      "33",
+      "27",
+      "35",
+      "25",
+      "37"
+    ]
+  },
+  "2026-08-22": {
+    "type": "mosaic",
+    "equation": "red × yellow + lime − cobalt",
+    "quadrants": [
+      {
+        "color": "#ff595e",
+        "label": "red",
+        "value": 2
+      },
+      {
+        "color": "#ffca3a",
+        "label": "yellow",
+        "value": 8
+      },
+      {
+        "color": "#8ac926",
+        "label": "lime",
+        "value": 9
+      },
+      {
+        "color": "#1982c4",
+        "label": "cobalt",
+        "value": 5
+      }
+    ],
+    "answer": "20",
+    "decoys": [
+      "21",
+      "19",
+      "22",
+      "18",
+      "23",
+      "17",
+      "25",
+      "15",
+      "27"
+    ]
+  },
+  "2026-08-23": {
+    "type": "mosaic",
+    "equation": "(crimson + amber)(mint − ocean)",
+    "quadrants": [
+      {
+        "color": "#ef476f",
+        "label": "crimson",
+        "value": 4
+      },
+      {
+        "color": "#ffd166",
+        "label": "amber",
+        "value": 5
+      },
+      {
+        "color": "#06d6a0",
+        "label": "mint",
+        "value": 8
+      },
+      {
+        "color": "#118ab2",
+        "label": "ocean",
+        "value": 3
+      }
+    ],
+    "answer": "45",
+    "decoys": [
+      "46",
+      "44",
+      "47",
+      "43",
+      "48",
+      "42",
+      "50",
+      "40",
+      "52"
+    ]
+  },
+  "2026-08-24": {
+    "type": "mosaic",
+    "equation": "indigo × periwinkle − orange × flame",
+    "quadrants": [
+      {
+        "color": "#3d348b",
+        "label": "indigo",
+        "value": 5
+      },
+      {
+        "color": "#7678ed",
+        "label": "periwinkle",
+        "value": 4
+      },
+      {
+        "color": "#f18701",
+        "label": "orange",
+        "value": 9
+      },
+      {
+        "color": "#f35b04",
+        "label": "flame",
+        "value": 7
+      }
+    ],
+    "answer": "-43",
+    "decoys": [
+      "-42",
+      "-44",
+      "-41",
+      "-45",
+      "-40",
+      "-46",
+      "-38",
+      "-48",
+      "-36"
+    ]
+  },
+  "2026-08-25": {
+    "type": "mosaic",
+    "equation": "(coral − lemon) × (jade + steel)",
+    "quadrants": [
+      {
+        "color": "#ff6b6b",
+        "label": "coral",
+        "value": 8
+      },
+      {
+        "color": "#ffd93d",
+        "label": "lemon",
+        "value": 4
+      },
+      {
+        "color": "#6bcb77",
+        "label": "jade",
+        "value": 2
+      },
+      {
+        "color": "#4d96ff",
+        "label": "steel",
+        "value": 9
+      }
+    ],
+    "answer": "44",
+    "decoys": [
+      "45",
+      "43",
+      "46",
+      "42",
+      "47",
+      "41",
+      "49",
+      "39",
+      "51"
+    ]
+  },
+  "2026-08-26": {
+    "type": "mosaic",
+    "equation": "ruby + sand × sage − slate",
+    "quadrants": [
+      {
+        "color": "#e63946",
+        "label": "ruby",
+        "value": 7
+      },
+      {
+        "color": "#f4a261",
+        "label": "sand",
+        "value": 6
+      },
+      {
+        "color": "#2a9d8f",
+        "label": "sage",
+        "value": 1
+      },
+      {
+        "color": "#264653",
+        "label": "slate",
+        "value": 8
+      }
+    ],
+    "answer": "5",
+    "decoys": [
+      "6",
+      "4",
+      "7",
+      "3",
+      "8",
+      "2",
+      "10",
+      "0",
+      "12"
+    ]
+  },
+  "2026-08-27": {
+    "type": "mosaic",
+    "equation": "(purple − pink)(teal + blue)",
+    "quadrants": [
+      {
+        "color": "#9b5de5",
+        "label": "purple",
+        "value": 5
+      },
+      {
+        "color": "#f15bb5",
+        "label": "pink",
+        "value": 8
+      },
+      {
+        "color": "#00f5d4",
+        "label": "teal",
+        "value": 7
+      },
+      {
+        "color": "#00bbf9",
+        "label": "blue",
+        "value": 3
+      }
+    ],
+    "answer": "-30",
+    "decoys": [
+      "-29",
+      "-31",
+      "-28",
+      "-32",
+      "-27",
+      "-33",
+      "-25",
+      "-35",
+      "-23"
+    ]
+  },
+  "2026-08-28": {
+    "type": "mosaic",
+    "equation": "jet × fuchsia − (volt + aqua)",
+    "quadrants": [
+      {
+        "color": "#0c0f0a",
+        "label": "jet",
+        "value": 1
+      },
+      {
+        "color": "#ff206e",
+        "label": "fuchsia",
+        "value": 2
+      },
+      {
+        "color": "#fbff12",
+        "label": "volt",
+        "value": 5
+      },
+      {
+        "color": "#41ead4",
+        "label": "aqua",
+        "value": 9
+      }
+    ],
+    "answer": "-12",
+    "decoys": [
+      "-11",
+      "-13",
+      "-10",
+      "-14",
+      "-9",
+      "-15",
+      "-7",
+      "-17",
+      "-5"
+    ]
+  },
+  "2026-08-29": {
+    "type": "mosaic",
+    "equation": "(sky + rose) × peach − gold",
+    "quadrants": [
+      {
+        "color": "#70d6ff",
+        "label": "sky",
+        "value": 7
+      },
+      {
+        "color": "#ff70a6",
+        "label": "rose",
+        "value": 2
+      },
+      {
+        "color": "#ff9770",
+        "label": "peach",
+        "value": 1
+      },
+      {
+        "color": "#ffd670",
+        "label": "gold",
+        "value": 6
+      }
+    ],
+    "answer": "3",
+    "decoys": [
+      "4",
+      "2",
+      "5",
+      "1",
+      "6",
+      "0",
+      "8",
+      "-2",
+      "10"
+    ]
+  },
+  "2026-08-30": {
+    "type": "mosaic",
+    "equation": "red × yellow + lime − cobalt",
+    "quadrants": [
+      {
+        "color": "#ff595e",
+        "label": "red",
+        "value": 2
+      },
+      {
+        "color": "#ffca3a",
+        "label": "yellow",
+        "value": 6
+      },
+      {
+        "color": "#8ac926",
+        "label": "lime",
+        "value": 9
+      },
+      {
+        "color": "#1982c4",
+        "label": "cobalt",
+        "value": 1
+      }
+    ],
+    "answer": "20",
+    "decoys": [
+      "21",
+      "19",
+      "22",
+      "18",
+      "23",
+      "17",
+      "25",
+      "15",
+      "27"
+    ]
+  },
+  "2026-08-31": {
+    "type": "mosaic",
+    "equation": "(crimson + amber)(mint − ocean)",
+    "quadrants": [
+      {
+        "color": "#ef476f",
+        "label": "crimson",
+        "value": 7
+      },
+      {
+        "color": "#ffd166",
+        "label": "amber",
+        "value": 1
+      },
+      {
+        "color": "#06d6a0",
+        "label": "mint",
+        "value": 5
+      },
+      {
+        "color": "#118ab2",
+        "label": "ocean",
+        "value": 9
+      }
+    ],
+    "answer": "-32",
+    "decoys": [
+      "-31",
+      "-33",
+      "-30",
+      "-34",
+      "-29",
+      "-35",
+      "-27",
+      "-37",
+      "-25"
+    ]
+  },
+  "2026-09-01": {
+    "type": "mosaic",
+    "equation": "indigo × periwinkle − orange × flame",
+    "quadrants": [
+      {
+        "color": "#3d348b",
+        "label": "indigo",
+        "value": 7
+      },
+      {
+        "color": "#7678ed",
+        "label": "periwinkle",
+        "value": 2
+      },
+      {
+        "color": "#f18701",
+        "label": "orange",
+        "value": 5
+      },
+      {
+        "color": "#f35b04",
+        "label": "flame",
+        "value": 4
+      }
+    ],
+    "answer": "-6",
+    "decoys": [
+      "-5",
+      "-7",
+      "-4",
+      "-8",
+      "-3",
+      "-9",
+      "-1",
+      "-11",
+      "1"
+    ]
+  },
+  "2026-09-02": {
+    "type": "mosaic",
+    "equation": "(coral − lemon) × (jade + steel)",
+    "quadrants": [
+      {
+        "color": "#ff6b6b",
+        "label": "coral",
+        "value": 9
+      },
+      {
+        "color": "#ffd93d",
+        "label": "lemon",
+        "value": 6
+      },
+      {
+        "color": "#6bcb77",
+        "label": "jade",
+        "value": 3
+      },
+      {
+        "color": "#4d96ff",
+        "label": "steel",
+        "value": 4
+      }
+    ],
+    "answer": "21",
+    "decoys": [
+      "22",
+      "20",
+      "23",
+      "19",
+      "24",
+      "18",
+      "26",
+      "16",
+      "28"
+    ]
+  },
+  "2026-09-03": {
+    "type": "mosaic",
+    "equation": "ruby + sand × sage − slate",
+    "quadrants": [
+      {
+        "color": "#e63946",
+        "label": "ruby",
+        "value": 1
+      },
+      {
+        "color": "#f4a261",
+        "label": "sand",
+        "value": 3
+      },
+      {
+        "color": "#2a9d8f",
+        "label": "sage",
+        "value": 8
+      },
+      {
+        "color": "#264653",
+        "label": "slate",
+        "value": 4
+      }
+    ],
+    "answer": "21",
+    "decoys": [
+      "22",
+      "20",
+      "23",
+      "19",
+      "24",
+      "18",
+      "26",
+      "16",
+      "28"
+    ]
+  },
+  "2026-09-04": {
+    "type": "mosaic",
+    "equation": "(purple − pink)(teal + blue)",
+    "quadrants": [
+      {
+        "color": "#9b5de5",
+        "label": "purple",
+        "value": 2
+      },
+      {
+        "color": "#f15bb5",
+        "label": "pink",
+        "value": 6
+      },
+      {
+        "color": "#00f5d4",
+        "label": "teal",
+        "value": 5
+      },
+      {
+        "color": "#00bbf9",
+        "label": "blue",
+        "value": 9
+      }
+    ],
+    "answer": "-56",
+    "decoys": [
+      "-55",
+      "-57",
+      "-54",
+      "-58",
+      "-53",
+      "-59",
+      "-51",
+      "-61",
+      "-49"
+    ]
+  },
+  "2026-09-05": {
+    "type": "mosaic",
+    "equation": "jet × fuchsia − (volt + aqua)",
+    "quadrants": [
+      {
+        "color": "#0c0f0a",
+        "label": "jet",
+        "value": 6
+      },
+      {
+        "color": "#ff206e",
+        "label": "fuchsia",
+        "value": 1
+      },
+      {
+        "color": "#fbff12",
+        "label": "volt",
+        "value": 9
+      },
+      {
+        "color": "#41ead4",
+        "label": "aqua",
+        "value": 8
+      }
+    ],
+    "answer": "-11",
+    "decoys": [
+      "-10",
+      "-12",
+      "-9",
+      "-13",
+      "-8",
+      "-14",
+      "-6",
+      "-16",
+      "-4"
+    ]
+  },
+  "2026-09-06": {
+    "type": "mosaic",
+    "equation": "(sky + rose) × peach − gold",
+    "quadrants": [
+      {
+        "color": "#70d6ff",
+        "label": "sky",
+        "value": 3
+      },
+      {
+        "color": "#ff70a6",
+        "label": "rose",
+        "value": 9
+      },
+      {
+        "color": "#ff9770",
+        "label": "peach",
+        "value": 5
+      },
+      {
+        "color": "#ffd670",
+        "label": "gold",
+        "value": 1
+      }
+    ],
+    "answer": "59",
+    "decoys": [
+      "60",
+      "58",
+      "61",
+      "57",
+      "62",
+      "56",
+      "64",
+      "54",
+      "66"
+    ]
+  },
+  "2026-09-07": {
+    "type": "mosaic",
+    "equation": "red × yellow + lime − cobalt",
+    "quadrants": [
+      {
+        "color": "#ff595e",
+        "label": "red",
+        "value": 7
+      },
+      {
+        "color": "#ffca3a",
+        "label": "yellow",
+        "value": 5
+      },
+      {
+        "color": "#8ac926",
+        "label": "lime",
+        "value": 6
+      },
+      {
+        "color": "#1982c4",
+        "label": "cobalt",
+        "value": 4
+      }
+    ],
+    "answer": "37",
+    "decoys": [
+      "38",
+      "36",
+      "39",
+      "35",
+      "40",
+      "34",
+      "42",
+      "32",
+      "44"
+    ]
+  },
+  "2026-09-08": {
+    "type": "mosaic",
+    "equation": "(crimson + amber)(mint − ocean)",
+    "quadrants": [
+      {
+        "color": "#ef476f",
+        "label": "crimson",
+        "value": 2
+      },
+      {
+        "color": "#ffd166",
+        "label": "amber",
+        "value": 1
+      },
+      {
+        "color": "#06d6a0",
+        "label": "mint",
+        "value": 5
+      },
+      {
+        "color": "#118ab2",
+        "label": "ocean",
+        "value": 8
+      }
+    ],
+    "answer": "-9",
+    "decoys": [
+      "-8",
+      "-10",
+      "-7",
+      "-11",
+      "-6",
+      "-12",
+      "-4",
+      "-14",
+      "-2"
+    ]
+  },
+  "2026-09-09": {
+    "type": "mosaic",
+    "equation": "indigo × periwinkle − orange × flame",
+    "quadrants": [
+      {
+        "color": "#3d348b",
+        "label": "indigo",
+        "value": 6
+      },
+      {
+        "color": "#7678ed",
+        "label": "periwinkle",
+        "value": 9
+      },
+      {
+        "color": "#f18701",
+        "label": "orange",
+        "value": 7
+      },
+      {
+        "color": "#f35b04",
+        "label": "flame",
+        "value": 8
+      }
+    ],
+    "answer": "-2",
+    "decoys": [
+      "-1",
+      "-3",
+      "0",
+      "-4",
+      "1",
+      "-5",
+      "3",
+      "-7",
+      "5"
+    ]
+  },
+  "2026-09-10": {
+    "type": "mosaic",
+    "equation": "(coral − lemon) × (jade + steel)",
+    "quadrants": [
+      {
+        "color": "#ff6b6b",
+        "label": "coral",
+        "value": 4
+      },
+      {
+        "color": "#ffd93d",
+        "label": "lemon",
+        "value": 1
+      },
+      {
+        "color": "#6bcb77",
+        "label": "jade",
+        "value": 3
+      },
+      {
+        "color": "#4d96ff",
+        "label": "steel",
+        "value": 2
+      }
+    ],
+    "answer": "15",
+    "decoys": [
+      "16",
+      "14",
+      "17",
+      "13",
+      "18",
+      "12",
+      "20",
+      "10",
+      "22"
+    ]
+  },
+  "2026-09-11": {
+    "type": "mosaic",
+    "equation": "ruby + sand × sage − slate",
+    "quadrants": [
+      {
+        "color": "#e63946",
+        "label": "ruby",
+        "value": 9
+      },
+      {
+        "color": "#f4a261",
+        "label": "sand",
+        "value": 6
+      },
+      {
+        "color": "#2a9d8f",
+        "label": "sage",
+        "value": 7
+      },
+      {
+        "color": "#264653",
+        "label": "slate",
+        "value": 1
+      }
+    ],
+    "answer": "50",
+    "decoys": [
+      "51",
+      "49",
+      "52",
+      "48",
+      "53",
+      "47",
+      "55",
+      "45",
+      "57"
+    ]
+  },
+  "2026-09-12": {
+    "type": "mosaic",
+    "equation": "(purple − pink)(teal + blue)",
+    "quadrants": [
+      {
+        "color": "#9b5de5",
+        "label": "purple",
+        "value": 9
+      },
+      {
+        "color": "#f15bb5",
+        "label": "pink",
+        "value": 6
+      },
+      {
+        "color": "#00f5d4",
+        "label": "teal",
+        "value": 2
+      },
+      {
+        "color": "#00bbf9",
+        "label": "blue",
+        "value": 5
+      }
+    ],
+    "answer": "21",
+    "decoys": [
+      "22",
+      "20",
+      "23",
+      "19",
+      "24",
+      "18",
+      "26",
+      "16",
+      "28"
+    ]
+  },
+  "2026-09-13": {
+    "type": "mosaic",
+    "equation": "jet × fuchsia − (volt + aqua)",
+    "quadrants": [
+      {
+        "color": "#0c0f0a",
+        "label": "jet",
+        "value": 3
+      },
+      {
+        "color": "#ff206e",
+        "label": "fuchsia",
+        "value": 1
+      },
+      {
+        "color": "#fbff12",
+        "label": "volt",
+        "value": 2
+      },
+      {
+        "color": "#41ead4",
+        "label": "aqua",
+        "value": 8
+      }
+    ],
+    "answer": "-7",
+    "decoys": [
+      "-6",
+      "-8",
+      "-5",
+      "-9",
+      "-4",
+      "-10",
+      "-2",
+      "-12",
+      "0"
+    ]
+  },
+  "2026-09-14": {
+    "type": "mosaic",
+    "equation": "(sky + rose) × peach − gold",
+    "quadrants": [
+      {
+        "color": "#70d6ff",
+        "label": "sky",
+        "value": 6
+      },
+      {
+        "color": "#ff70a6",
+        "label": "rose",
+        "value": 1
+      },
+      {
+        "color": "#ff9770",
+        "label": "peach",
+        "value": 4
+      },
+      {
+        "color": "#ffd670",
+        "label": "gold",
+        "value": 9
+      }
+    ],
+    "answer": "19",
+    "decoys": [
+      "20",
+      "18",
+      "21",
+      "17",
+      "22",
+      "16",
+      "24",
+      "14",
+      "26"
+    ]
+  },
+  "2026-09-15": {
+    "type": "mosaic",
+    "equation": "red × yellow + lime − cobalt",
+    "quadrants": [
+      {
+        "color": "#ff595e",
+        "label": "red",
+        "value": 1
+      },
+      {
+        "color": "#ffca3a",
+        "label": "yellow",
+        "value": 4
+      },
+      {
+        "color": "#8ac926",
+        "label": "lime",
+        "value": 5
+      },
+      {
+        "color": "#1982c4",
+        "label": "cobalt",
+        "value": 2
+      }
+    ],
+    "answer": "7",
+    "decoys": [
+      "8",
+      "6",
+      "9",
+      "5",
+      "10",
+      "4",
+      "12",
+      "2",
+      "14"
+    ]
+  },
+  "2026-09-16": {
+    "type": "mosaic",
+    "equation": "(crimson + amber)(mint − ocean)",
+    "quadrants": [
+      {
+        "color": "#ef476f",
+        "label": "crimson",
+        "value": 5
+      },
+      {
+        "color": "#ffd166",
+        "label": "amber",
+        "value": 2
+      },
+      {
+        "color": "#06d6a0",
+        "label": "mint",
+        "value": 9
+      },
+      {
+        "color": "#118ab2",
+        "label": "ocean",
+        "value": 1
+      }
+    ],
+    "answer": "56",
+    "decoys": [
+      "57",
+      "55",
+      "58",
+      "54",
+      "59",
+      "53",
+      "61",
+      "51",
+      "63"
+    ]
+  },
+  "2026-09-17": {
+    "type": "mosaic",
+    "equation": "indigo × periwinkle − orange × flame",
+    "quadrants": [
+      {
+        "color": "#3d348b",
+        "label": "indigo",
+        "value": 9
+      },
+      {
+        "color": "#7678ed",
+        "label": "periwinkle",
+        "value": 8
+      },
+      {
+        "color": "#f18701",
+        "label": "orange",
+        "value": 7
+      },
+      {
+        "color": "#f35b04",
+        "label": "flame",
+        "value": 2
+      }
+    ],
+    "answer": "58",
+    "decoys": [
+      "59",
+      "57",
+      "60",
+      "56",
+      "61",
+      "55",
+      "63",
+      "53",
+      "65"
+    ]
+  },
+  "2026-09-18": {
+    "type": "mosaic",
+    "equation": "(coral − lemon) × (jade + steel)",
+    "quadrants": [
+      {
+        "color": "#ff6b6b",
+        "label": "coral",
+        "value": 5
+      },
+      {
+        "color": "#ffd93d",
+        "label": "lemon",
+        "value": 9
+      },
+      {
+        "color": "#6bcb77",
+        "label": "jade",
+        "value": 1
+      },
+      {
+        "color": "#4d96ff",
+        "label": "steel",
+        "value": 6
+      }
+    ],
+    "answer": "-28",
+    "decoys": [
+      "-27",
+      "-29",
+      "-26",
+      "-30",
+      "-25",
+      "-31",
+      "-23",
+      "-33",
+      "-21"
+    ]
+  },
+  "2026-09-19": {
+    "type": "mosaic",
+    "equation": "ruby + sand × sage − slate",
+    "quadrants": [
+      {
+        "color": "#e63946",
+        "label": "ruby",
+        "value": 6
+      },
+      {
+        "color": "#f4a261",
+        "label": "sand",
+        "value": 3
+      },
+      {
+        "color": "#2a9d8f",
+        "label": "sage",
+        "value": 7
+      },
+      {
+        "color": "#264653",
+        "label": "slate",
+        "value": 4
+      }
+    ],
+    "answer": "23",
+    "decoys": [
+      "24",
+      "22",
+      "25",
+      "21",
+      "26",
+      "20",
+      "28",
+      "18",
+      "30"
+    ]
+  },
+  "2026-09-20": {
+    "type": "mosaic",
+    "equation": "(purple − pink)(teal + blue)",
+    "quadrants": [
+      {
+        "color": "#9b5de5",
+        "label": "purple",
+        "value": 7
+      },
+      {
+        "color": "#f15bb5",
+        "label": "pink",
+        "value": 5
+      },
+      {
+        "color": "#00f5d4",
+        "label": "teal",
+        "value": 2
+      },
+      {
+        "color": "#00bbf9",
+        "label": "blue",
+        "value": 1
+      }
+    ],
+    "answer": "6",
+    "decoys": [
+      "7",
+      "5",
+      "8",
+      "4",
+      "9",
+      "3",
+      "11",
+      "1",
+      "13"
+    ]
+  },
+  "2026-09-21": {
+    "type": "mosaic",
+    "equation": "jet × fuchsia − (volt + aqua)",
+    "quadrants": [
+      {
+        "color": "#0c0f0a",
+        "label": "jet",
+        "value": 3
+      },
+      {
+        "color": "#ff206e",
+        "label": "fuchsia",
+        "value": 8
+      },
+      {
+        "color": "#fbff12",
+        "label": "volt",
+        "value": 1
+      },
+      {
+        "color": "#41ead4",
+        "label": "aqua",
+        "value": 2
+      }
+    ],
+    "answer": "21",
+    "decoys": [
+      "22",
+      "20",
+      "23",
+      "19",
+      "24",
+      "18",
+      "26",
+      "16",
+      "28"
+    ]
+  },
+  "2026-09-22": {
+    "type": "mosaic",
+    "equation": "(sky + rose) × peach − gold",
+    "quadrants": [
+      {
+        "color": "#70d6ff",
+        "label": "sky",
+        "value": 2
+      },
+      {
+        "color": "#ff70a6",
+        "label": "rose",
+        "value": 9
+      },
+      {
+        "color": "#ff9770",
+        "label": "peach",
+        "value": 4
+      },
+      {
+        "color": "#ffd670",
+        "label": "gold",
+        "value": 6
+      }
+    ],
+    "answer": "38",
+    "decoys": [
+      "39",
+      "37",
+      "40",
+      "36",
+      "41",
+      "35",
+      "43",
+      "33",
+      "45"
+    ]
+  },
+  "2026-09-23": {
+    "type": "mosaic",
+    "equation": "red × yellow + lime − cobalt",
+    "quadrants": [
+      {
+        "color": "#ff595e",
+        "label": "red",
+        "value": 8
+      },
+      {
+        "color": "#ffca3a",
+        "label": "yellow",
+        "value": 9
+      },
+      {
+        "color": "#8ac926",
+        "label": "lime",
+        "value": 6
+      },
+      {
+        "color": "#1982c4",
+        "label": "cobalt",
+        "value": 3
+      }
+    ],
+    "answer": "75",
+    "decoys": [
+      "76",
+      "74",
+      "77",
+      "73",
+      "78",
+      "72",
+      "80",
+      "70",
+      "82"
+    ]
+  },
+  "2026-09-24": {
+    "type": "mosaic",
+    "equation": "(crimson + amber)(mint − ocean)",
+    "quadrants": [
+      {
+        "color": "#ef476f",
+        "label": "crimson",
+        "value": 7
+      },
+      {
+        "color": "#ffd166",
+        "label": "amber",
+        "value": 2
+      },
+      {
+        "color": "#06d6a0",
+        "label": "mint",
+        "value": 1
+      },
+      {
+        "color": "#118ab2",
+        "label": "ocean",
+        "value": 8
+      }
+    ],
+    "answer": "-63",
+    "decoys": [
+      "-62",
+      "-64",
+      "-61",
+      "-65",
+      "-60",
+      "-66",
+      "-58",
+      "-68",
+      "-56"
+    ]
+  },
+  "2026-09-25": {
+    "type": "mosaic",
+    "equation": "indigo × periwinkle − orange × flame",
+    "quadrants": [
+      {
+        "color": "#3d348b",
+        "label": "indigo",
+        "value": 4
+      },
+      {
+        "color": "#7678ed",
+        "label": "periwinkle",
+        "value": 7
+      },
+      {
+        "color": "#f18701",
+        "label": "orange",
+        "value": 6
+      },
+      {
+        "color": "#f35b04",
+        "label": "flame",
+        "value": 9
+      }
+    ],
+    "answer": "-26",
+    "decoys": [
+      "-25",
+      "-27",
+      "-24",
+      "-28",
+      "-23",
+      "-29",
+      "-21",
+      "-31",
+      "-19"
+    ]
+  },
+  "2026-09-26": {
+    "type": "mosaic",
+    "equation": "(coral − lemon) × (jade + steel)",
+    "quadrants": [
+      {
+        "color": "#ff6b6b",
+        "label": "coral",
+        "value": 4
+      },
+      {
+        "color": "#ffd93d",
+        "label": "lemon",
+        "value": 7
+      },
+      {
+        "color": "#6bcb77",
+        "label": "jade",
+        "value": 2
+      },
+      {
+        "color": "#4d96ff",
+        "label": "steel",
+        "value": 3
+      }
+    ],
+    "answer": "-15",
+    "decoys": [
+      "-14",
+      "-16",
+      "-13",
+      "-17",
+      "-12",
+      "-18",
+      "-10",
+      "-20",
+      "-8"
+    ]
+  },
+  "2026-09-27": {
+    "type": "mosaic",
+    "equation": "ruby + sand × sage − slate",
+    "quadrants": [
+      {
+        "color": "#e63946",
+        "label": "ruby",
+        "value": 5
+      },
+      {
+        "color": "#f4a261",
+        "label": "sand",
+        "value": 2
+      },
+      {
+        "color": "#2a9d8f",
+        "label": "sage",
+        "value": 8
+      },
+      {
+        "color": "#264653",
+        "label": "slate",
+        "value": 7
+      }
+    ],
+    "answer": "14",
+    "decoys": [
+      "15",
+      "13",
+      "16",
+      "12",
+      "17",
+      "11",
+      "19",
+      "9",
+      "21"
+    ]
+  },
+  "2026-09-28": {
+    "type": "mosaic",
+    "equation": "(purple − pink)(teal + blue)",
+    "quadrants": [
+      {
+        "color": "#9b5de5",
+        "label": "purple",
+        "value": 9
+      },
+      {
+        "color": "#f15bb5",
+        "label": "pink",
+        "value": 8
+      },
+      {
+        "color": "#00f5d4",
+        "label": "teal",
+        "value": 1
+      },
+      {
+        "color": "#00bbf9",
+        "label": "blue",
+        "value": 2
+      }
+    ],
+    "answer": "3",
+    "decoys": [
+      "4",
+      "2",
+      "5",
+      "1",
+      "6",
+      "0",
+      "8",
+      "-2",
+      "10"
+    ]
+  },
+  "2026-09-29": {
+    "type": "mosaic",
+    "equation": "jet × fuchsia − (volt + aqua)",
+    "quadrants": [
+      {
+        "color": "#0c0f0a",
+        "label": "jet",
+        "value": 9
+      },
+      {
+        "color": "#ff206e",
+        "label": "fuchsia",
+        "value": 5
+      },
+      {
+        "color": "#fbff12",
+        "label": "volt",
+        "value": 1
+      },
+      {
+        "color": "#41ead4",
+        "label": "aqua",
+        "value": 3
+      }
+    ],
+    "answer": "41",
+    "decoys": [
+      "42",
+      "40",
+      "43",
+      "39",
+      "44",
+      "38",
+      "46",
+      "36",
+      "48"
+    ]
+  },
+  "2026-09-30": {
+    "type": "mosaic",
+    "equation": "(sky + rose) × peach − gold",
+    "quadrants": [
+      {
+        "color": "#70d6ff",
+        "label": "sky",
+        "value": 5
+      },
+      {
+        "color": "#ff70a6",
+        "label": "rose",
+        "value": 2
+      },
+      {
+        "color": "#ff9770",
+        "label": "peach",
+        "value": 9
+      },
+      {
+        "color": "#ffd670",
+        "label": "gold",
+        "value": 7
+      }
+    ],
+    "answer": "56",
+    "decoys": [
+      "57",
+      "55",
+      "58",
+      "54",
+      "59",
+      "53",
+      "61",
+      "51",
+      "63"
+    ]
+  },
+  "2026-10-01": {
+    "type": "mosaic",
+    "equation": "red × yellow + lime − cobalt",
+    "quadrants": [
+      {
+        "color": "#ff595e",
+        "label": "red",
+        "value": 3
+      },
+      {
+        "color": "#ffca3a",
+        "label": "yellow",
+        "value": 4
+      },
+      {
+        "color": "#8ac926",
+        "label": "lime",
+        "value": 6
+      },
+      {
+        "color": "#1982c4",
+        "label": "cobalt",
+        "value": 7
+      }
+    ],
+    "answer": "11",
+    "decoys": [
+      "12",
+      "10",
+      "13",
+      "9",
+      "14",
+      "8",
+      "16",
+      "6",
+      "18"
+    ]
+  },
+  "2026-10-02": {
+    "type": "mosaic",
+    "equation": "(crimson + amber)(mint − ocean)",
+    "quadrants": [
+      {
+        "color": "#ef476f",
+        "label": "crimson",
+        "value": 2
+      },
+      {
+        "color": "#ffd166",
+        "label": "amber",
+        "value": 5
+      },
+      {
+        "color": "#06d6a0",
+        "label": "mint",
+        "value": 7
+      },
+      {
+        "color": "#118ab2",
+        "label": "ocean",
+        "value": 1
+      }
+    ],
+    "answer": "42",
+    "decoys": [
+      "43",
+      "41",
+      "44",
+      "40",
+      "45",
+      "39",
+      "47",
+      "37",
+      "49"
+    ]
+  },
+  "2026-10-03": {
+    "type": "mosaic",
+    "equation": "indigo × periwinkle − orange × flame",
+    "quadrants": [
+      {
+        "color": "#3d348b",
+        "label": "indigo",
+        "value": 3
+      },
+      {
+        "color": "#7678ed",
+        "label": "periwinkle",
+        "value": 4
+      },
+      {
+        "color": "#f18701",
+        "label": "orange",
+        "value": 1
+      },
+      {
+        "color": "#f35b04",
+        "label": "flame",
+        "value": 9
+      }
+    ],
+    "answer": "3",
+    "decoys": [
+      "4",
+      "2",
+      "5",
+      "1",
+      "6",
+      "0",
+      "8",
+      "-2",
+      "10"
+    ]
+  },
+  "2026-10-04": {
+    "type": "mosaic",
+    "equation": "(coral − lemon) × (jade + steel)",
+    "quadrants": [
+      {
+        "color": "#ff6b6b",
+        "label": "coral",
+        "value": 3
+      },
+      {
+        "color": "#ffd93d",
+        "label": "lemon",
+        "value": 8
+      },
+      {
+        "color": "#6bcb77",
+        "label": "jade",
+        "value": 6
+      },
+      {
+        "color": "#4d96ff",
+        "label": "steel",
+        "value": 7
+      }
+    ],
+    "answer": "-65",
+    "decoys": [
+      "-64",
+      "-66",
+      "-63",
+      "-67",
+      "-62",
+      "-68",
+      "-60",
+      "-70",
+      "-58"
+    ]
+  },
+  "2026-10-05": {
+    "type": "mosaic",
+    "equation": "ruby + sand × sage − slate",
+    "quadrants": [
+      {
+        "color": "#e63946",
+        "label": "ruby",
+        "value": 6
+      },
+      {
+        "color": "#f4a261",
+        "label": "sand",
+        "value": 7
+      },
+      {
+        "color": "#2a9d8f",
+        "label": "sage",
+        "value": 2
+      },
+      {
+        "color": "#264653",
+        "label": "slate",
+        "value": 9
+      }
+    ],
+    "answer": "11",
+    "decoys": [
+      "12",
+      "10",
+      "13",
+      "9",
+      "14",
+      "8",
+      "16",
+      "6",
+      "18"
+    ]
+  },
+  "2026-10-06": {
+    "type": "mosaic",
+    "equation": "(purple − pink)(teal + blue)",
+    "quadrants": [
+      {
+        "color": "#9b5de5",
+        "label": "purple",
+        "value": 2
+      },
+      {
+        "color": "#f15bb5",
+        "label": "pink",
+        "value": 3
+      },
+      {
+        "color": "#00f5d4",
+        "label": "teal",
+        "value": 4
+      },
+      {
+        "color": "#00bbf9",
+        "label": "blue",
+        "value": 6
+      }
+    ],
+    "answer": "-10",
+    "decoys": [
+      "-9",
+      "-11",
+      "-8",
+      "-12",
+      "-7",
+      "-13",
+      "-5",
+      "-15",
+      "-3"
+    ]
+  },
+  "2026-10-07": {
+    "type": "mosaic",
+    "equation": "jet × fuchsia − (volt + aqua)",
+    "quadrants": [
+      {
+        "color": "#0c0f0a",
+        "label": "jet",
+        "value": 2
+      },
+      {
+        "color": "#ff206e",
+        "label": "fuchsia",
+        "value": 7
+      },
+      {
+        "color": "#fbff12",
+        "label": "volt",
+        "value": 3
+      },
+      {
+        "color": "#41ead4",
+        "label": "aqua",
+        "value": 9
+      }
+    ],
+    "answer": "2",
+    "decoys": [
+      "3",
+      "1",
+      "4",
+      "0",
+      "5",
+      "-1",
+      "7",
+      "-3",
+      "9"
+    ]
+  },
+  "2026-10-08": {
+    "type": "mosaic",
+    "equation": "(sky + rose) × peach − gold",
+    "quadrants": [
+      {
+        "color": "#70d6ff",
+        "label": "sky",
+        "value": 6
+      },
+      {
+        "color": "#ff70a6",
+        "label": "rose",
+        "value": 3
+      },
+      {
+        "color": "#ff9770",
+        "label": "peach",
+        "value": 7
+      },
+      {
+        "color": "#ffd670",
+        "label": "gold",
+        "value": 5
+      }
+    ],
+    "answer": "58",
+    "decoys": [
+      "59",
+      "57",
+      "60",
+      "56",
+      "61",
+      "55",
+      "63",
+      "53",
+      "65"
+    ]
+  },
+  "2026-10-09": {
+    "type": "mosaic",
+    "equation": "red × yellow + lime − cobalt",
+    "quadrants": [
+      {
+        "color": "#ff595e",
+        "label": "red",
+        "value": 1
+      },
+      {
+        "color": "#ffca3a",
+        "label": "yellow",
+        "value": 6
+      },
+      {
+        "color": "#8ac926",
+        "label": "lime",
+        "value": 9
+      },
+      {
+        "color": "#1982c4",
+        "label": "cobalt",
+        "value": 5
+      }
+    ],
+    "answer": "10",
+    "decoys": [
+      "11",
+      "9",
+      "12",
+      "8",
+      "13",
+      "7",
+      "15",
+      "5",
+      "17"
+    ]
+  },
+  "2026-10-10": {
+    "type": "mosaic",
+    "equation": "(crimson + amber)(mint − ocean)",
+    "quadrants": [
+      {
+        "color": "#ef476f",
+        "label": "crimson",
+        "value": 1
+      },
+      {
+        "color": "#ffd166",
+        "label": "amber",
+        "value": 6
+      },
+      {
+        "color": "#06d6a0",
+        "label": "mint",
+        "value": 8
+      },
+      {
+        "color": "#118ab2",
+        "label": "ocean",
+        "value": 3
+      }
+    ],
+    "answer": "35",
+    "decoys": [
+      "36",
+      "34",
+      "37",
+      "33",
+      "38",
+      "32",
+      "40",
+      "30",
+      "42"
+    ]
+  },
+  "2026-10-11": {
+    "type": "mosaic",
+    "equation": "indigo × periwinkle − orange × flame",
+    "quadrants": [
+      {
+        "color": "#3d348b",
+        "label": "indigo",
+        "value": 6
+      },
+      {
+        "color": "#7678ed",
+        "label": "periwinkle",
+        "value": 7
+      },
+      {
+        "color": "#f18701",
+        "label": "orange",
+        "value": 9
+      },
+      {
+        "color": "#f35b04",
+        "label": "flame",
+        "value": 1
+      }
+    ],
+    "answer": "33",
+    "decoys": [
+      "34",
+      "32",
+      "35",
+      "31",
+      "36",
+      "30",
+      "38",
+      "28",
+      "40"
+    ]
+  },
+  "2026-10-12": {
+    "type": "mosaic",
+    "equation": "(coral − lemon) × (jade + steel)",
+    "quadrants": [
+      {
+        "color": "#ff6b6b",
+        "label": "coral",
+        "value": 3
+      },
+      {
+        "color": "#ffd93d",
+        "label": "lemon",
+        "value": 7
+      },
+      {
+        "color": "#6bcb77",
+        "label": "jade",
+        "value": 5
+      },
+      {
+        "color": "#4d96ff",
+        "label": "steel",
+        "value": 8
+      }
+    ],
+    "answer": "-52",
+    "decoys": [
+      "-51",
+      "-53",
+      "-50",
+      "-54",
+      "-49",
+      "-55",
+      "-47",
+      "-57",
+      "-45"
+    ]
+  },
+  "2026-10-13": {
+    "type": "mosaic",
+    "equation": "ruby + sand × sage − slate",
+    "quadrants": [
+      {
+        "color": "#e63946",
+        "label": "ruby",
+        "value": 1
+      },
+      {
+        "color": "#f4a261",
+        "label": "sand",
+        "value": 6
+      },
+      {
+        "color": "#2a9d8f",
+        "label": "sage",
+        "value": 2
+      },
+      {
+        "color": "#264653",
+        "label": "slate",
+        "value": 5
+      }
+    ],
+    "answer": "8",
+    "decoys": [
+      "9",
+      "7",
+      "10",
+      "6",
+      "11",
+      "5",
+      "13",
+      "3",
+      "15"
+    ]
+  }
+}

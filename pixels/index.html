@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pixels</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+
+    :root {
+      --gray: #1a1a1a;
+      --bg: #f5f0e8;
+      --muted-green-bg: #dde8dd;
+      --muted-green-border: #5a8a5a;
+      --muted-green-text: #3a6a3a;
+      --muted-red-bg: #ecdcdc;
+      --muted-red-border: #a05a5a;
+      --muted-red-text: #7a3a3a;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 24px 12px 60px;
+      font-family: 'PT Mono', monospace;
+      color: var(--gray);
+    }
+
+    @media (max-width: 400px) {
+      body { padding: 16px 8px 48px; }
+      h1   { font-size: 1.3rem; letter-spacing: 2px; }
+      #answers { grid-template-columns: 1fr; }
+    }
+
+    h1 {
+      margin: 0 0 2px;
+      font-size: 1.8rem;
+      letter-spacing: 4px;
+      color: var(--gray);
+      text-transform: uppercase;
+      text-align: center;
+    }
+
+    #date-label {
+      margin: 0 0 4px;
+      font-size: 0.82rem;
+      color: var(--gray);
+      opacity: 0.5;
+      letter-spacing: 1px;
+    }
+
+    h1 .archive-tag {
+      background: var(--gray);
+      color: var(--bg);
+      border-radius: 4px;
+      padding: 1px 8px;
+      margin-left: 4px;
+      font-size: 0.85em;
+    }
+
+    /* back button shown during archive play */
+    #back-btn {
+      display: none;
+      margin-bottom: 16px;
+      padding: 6px 14px;
+      background: var(--bg);
+      border: 2px solid var(--gray);
+      border-radius: 7px;
+      color: var(--gray);
+      font-family: 'PT Mono', monospace;
+      font-size: 0.78rem;
+      cursor: pointer;
+      letter-spacing: 0.5px;
+      transition: background 0.12s;
+    }
+    #back-btn:hover { background: #ede8de; }
+    #back-btn.visible { display: inline-block; }
+
+    /* ── Attempt dots ── */
+    #attempts-dots {
+      display: flex;
+      gap: 8px;
+      margin-top: 12px;
+      margin-bottom: 0;
+    }
+    .dot {
+      width: 11px;
+      height: 11px;
+      border-radius: 50%;
+      border: 2px solid var(--gray);
+      background: transparent;
+      transition: background 0.25s, border-color 0.25s;
+    }
+    .dot.used { background: var(--muted-red-border); border-color: var(--muted-red-border); }
+
+    /* ── Canvas ── */
+    #canvas-wrap {
+      position: relative;
+      width: 100%;
+      max-width: 512px;
+    }
+    canvas {
+      display: block;
+      width: 100%;
+      border-radius: 10px;
+      border: 2px solid var(--gray);
+      image-rendering: pixelated;
+      image-rendering: crisp-edges;
+    }
+
+    /* ── Answer grid ── */
+    #answers {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      width: 100%;
+      max-width: 512px;
+      margin-top: 12px;
+    }
+
+    .answer-btn {
+      padding: 11px 14px;
+      background: var(--bg);
+      border: 2px solid var(--gray);
+      border-radius: 8px;
+      color: var(--gray);
+      font-family: 'PT Mono', monospace;
+      font-size: 0.88rem;
+      cursor: pointer;
+      text-align: center;
+      transition: background 0.12s, opacity 0.12s;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .answer-btn:hover:not(:disabled) { background: #ede8de; }
+    .answer-btn:disabled { cursor: default; }
+    .answer-btn.correct {
+      background: var(--muted-green-bg);
+      border-color: var(--muted-green-border);
+      color: var(--muted-green-text);
+    }
+    .answer-btn.wrong {
+      background: var(--muted-red-bg);
+      border-color: var(--muted-red-border);
+      color: var(--muted-red-text);
+      text-decoration: line-through;
+    }
+    .answer-btn.locked { opacity: 0.3; }
+
+    /* ── Message ── */
+    #message {
+      margin-top: 12px;
+      font-size: 1.05rem;
+      font-weight: 600;
+      min-height: 26px;
+      text-align: center;
+      max-width: 512px;
+    }
+    #message.win  { color: var(--gray); }
+    #message.lose { color: var(--gray); }
+
+    /* ── Typewriter cursor ── */
+    @keyframes blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    .type-cursor {
+      display: inline-block;
+      animation: blink 0.7s step-end infinite;
+      font-weight: 300;
+      margin-left: 1px;
+    }
+
+    /* ── Button pop-in ── */
+    @keyframes btn-pop {
+      from { transform: scale(0); }
+      to   { transform: scale(1); }
+    }
+
+    /* ── End buttons ── */
+    #end-buttons {
+      display: none;
+      flex-wrap: wrap;
+      gap: 8px;
+      justify-content: center;
+      margin-top: 12px;
+      width: 100%;
+      max-width: 512px;
+    }
+    #end-buttons.visible { display: flex; }
+    #end-buttons button {
+      flex: 1 1 120px;
+      padding: 10px 14px;
+      background: var(--bg);
+      border: 2px solid var(--gray);
+      border-radius: 8px;
+      color: var(--gray);
+      font-family: 'PT Mono', monospace;
+      font-size: 0.88rem;
+      cursor: pointer;
+      letter-spacing: 1px;
+      transition: background 0.12s;
+      text-align: center;
+    }
+    #end-buttons button:hover { background: #ede8de; }
+    #end-buttons #share-btn { background: var(--gray); color: var(--bg); }
+    #end-buttons #share-btn:hover { background: #333; }
+    #open-archive-btn { display: none; }
+    #open-archive-btn.visible { display: inline-block; }
+    #next-puzzle-btn { display: none; }
+    #next-puzzle-btn.visible { display: block; }
+
+    /* ── Share / Stats ── */
+    #share-wrap {
+      display: none;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 12px;
+      width: 100%;
+      max-width: 512px;
+    }
+    #share-wrap.visible { display: flex; }
+    #share-wrap button {
+      flex: 1 1 120px;
+      padding: 10px 14px;
+      background: var(--bg);
+      border: 2px solid var(--gray);
+      border-radius: 8px;
+      color: var(--gray);
+      font-family: 'PT Mono', monospace;
+      font-size: 0.88rem;
+      letter-spacing: 1px;
+      cursor: pointer;
+      text-align: center;
+      transition: background 0.12s;
+    }
+    #share-wrap button:hover { background: #ede8de; }
+    #share-wrap #open-archive-btn { background: var(--gray); color: var(--bg); }
+    #share-wrap #open-archive-btn:hover { background: #ede8de; }
+    #stats-btn { display: none; }
+    #stats-btn.visible { display: inline-block; }
+
+    #share-feedback {
+      font-size: 0.75rem;
+      opacity: 0.45;
+      min-height: 16px;
+      text-align: center;
+      margin-top: 4px;
+      width: 100%;
+      max-width: 512px;
+    }
+
+    /* ── Stats modal ── */
+    #stats-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.45);
+      z-index: 100;
+      align-items: center;
+      justify-content: center;
+    }
+    #stats-overlay.visible { display: flex; }
+    #stats-panel {
+      background: var(--bg);
+      border: 2px solid var(--gray);
+      border-radius: 16px;
+      padding: 36px 48px 28px;
+      text-align: center;
+      font-family: 'PT Mono', monospace;
+      color: var(--gray);
+      min-width: 300px;
+    }
+    #stats-panel h2 {
+      margin: 0 0 28px;
+      font-size: 0.72rem;
+      letter-spacing: 3px;
+      opacity: 0.45;
+      text-transform: uppercase;
+    }
+    .stats-grid {
+      display: flex;
+      gap: 32px;
+      justify-content: center;
+      margin-bottom: 28px;
+    }
+    .stat-cell { display: flex; flex-direction: column; align-items: center; gap: 5px; }
+    .stat-value { font-size: 2.6rem; font-weight: 700; line-height: 1; }
+    .stat-label { font-size: 0.68rem; letter-spacing: 1.5px; opacity: 0.45; text-transform: uppercase; }
+    .stat-fraction { font-size: 0.78rem; opacity: 0.55; }
+    #stats-close {
+      padding: 8px 28px;
+      background: transparent;
+      border: 1px solid rgba(26, 26, 26, 0.25);
+      border-radius: 8px;
+      color: var(--gray);
+      font-family: 'PT Mono', monospace;
+      font-size: 0.8rem;
+      cursor: pointer;
+      letter-spacing: 1px;
+      transition: background 0.12s;
+    }
+    #stats-close:hover { background: rgba(26, 26, 26, 0.07); }
+
+    /* ── Home link ── */
+    #home-btn {
+      display: block;
+      margin-bottom: 16px;
+      padding: 6px 14px;
+      background: var(--bg);
+      border: 2px solid var(--gray);
+      border-radius: 7px;
+      color: var(--gray);
+      font-family: 'PT Mono', monospace;
+      font-size: 0.78rem;
+      cursor: pointer;
+      letter-spacing: 0.5px;
+      text-decoration: none;
+      transition: background 0.12s;
+    }
+    #home-btn:hover { background: #ede8de; }
+
+    /* ── Tutorial modal ── */
+    #tutorial-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.45);
+      z-index: 200;
+      align-items: center;
+      justify-content: center;
+    }
+    #tutorial-overlay.visible { display: flex; }
+    #tutorial-panel {
+      background: var(--bg);
+      border: 2px solid var(--gray);
+      border-radius: 16px;
+      padding: 36px 40px 28px;
+      text-align: center;
+      font-family: 'PT Mono', monospace;
+      color: var(--gray);
+      max-width: 320px;
+      line-height: 1.7;
+      font-size: 0.92rem;
+    }
+    #tutorial-panel p { margin-bottom: 24px; }
+    #tutorial-close {
+      padding: 10px 28px;
+      background: var(--gray);
+      border: 2px solid var(--gray);
+      border-radius: 8px;
+      color: var(--bg);
+      font-family: 'PT Mono', monospace;
+      font-size: 0.88rem;
+      letter-spacing: 1px;
+      cursor: pointer;
+      transition: opacity 0.12s;
+    }
+    #tutorial-close:hover { opacity: 0.8; }
+
+    /* ── No puzzle ── */
+    #no-puzzle {
+      display: none;
+      margin-top: 60px;
+      text-align: center;
+      opacity: 0.5;
+      font-size: 0.95rem;
+      line-height: 1.8;
+    }
+
+  </style>
+</head>
+<body>
+
+  <a id="home-btn" href="/">← Dingle Games</a>
+
+  <h1>Pixels</h1>
+  <p id="date-label"></p>
+  <button id="back-btn">← Today's Puzzle</button>
+
+  <div id="canvas-wrap">
+    <canvas id="canvas"></canvas>
+  </div>
+
+  <div id="attempts-dots">
+    <div class="dot" id="dot-0"></div>
+    <div class="dot" id="dot-1"></div>
+    <div class="dot" id="dot-2"></div>
+    <div class="dot" id="dot-3"></div>
+  </div>
+
+  <div id="answers"></div>
+  <div id="message"></div>
+
+  <div id="share-wrap">
+    <button id="share-btn">Share Result</button>
+    <button id="open-archive-btn">Archive</button>
+    <button id="stats-btn">Stats</button>
+    <button id="next-puzzle-btn">Next Pixels →</button>
+    <div id="share-feedback"></div>
+  </div>
+
+  <div id="stats-overlay">
+    <div id="stats-panel">
+      <h2>Statistics</h2>
+      <div class="stats-grid">
+        <div class="stat-cell">
+          <span class="stat-value" id="stat-pct">—</span>
+          <span class="stat-label">correct</span>
+          <span class="stat-fraction" id="stat-fraction"></span>
+        </div>
+        <div class="stat-cell">
+          <span class="stat-value" id="stat-avg">—</span>
+          <span class="stat-label">avg guesses</span>
+          <span class="stat-fraction">&nbsp;</span>
+        </div>
+      </div>
+      <button id="stats-close">close</button>
+    </div>
+  </div>
+
+  <div id="tutorial-overlay">
+    <div id="tutorial-panel">
+      <p>You have four tries to guess the image. Guessing wrong gives you more pixels.</p>
+      <button id="tutorial-close">Got it</button>
+    </div>
+  </div>
+
+  <div id="no-puzzle">No puzzle today.<br>Check back tomorrow.</div>
+
+  <script>
+    const PIXEL_SIZES   = [243, 81, 27, 9];
+    const ANIM_DURATION = 750;
+
+    // ─── DOM refs ─────────────────────────────────────────────────────────────
+    const canvas        = document.getElementById('canvas');
+    const ctx           = canvas.getContext('2d');
+    const answersEl     = document.getElementById('answers');
+    const messageEl     = document.getElementById('message');
+    const dateEl        = document.getElementById('date-label');
+    const noPuzzleEl    = document.getElementById('no-puzzle');
+    const shareWrap     = document.getElementById('share-wrap');
+    const shareBtn      = document.getElementById('share-btn');
+    const shareFeedback = document.getElementById('share-feedback');
+    const openArchiveBtn   = document.getElementById('open-archive-btn');
+    const nextPuzzleBtn    = document.getElementById('next-puzzle-btn');
+    const backBtn       = document.getElementById('back-btn');
+    const titleEl       = document.querySelector('h1');
+
+    const img       = new Image();
+    const offscreen = document.createElement('canvas');
+    const offCtx    = offscreen.getContext('2d');
+
+    let imgX = 0, imgY = 0, imgW = 0, imgH = 0;
+    let attempt = 0;
+    let animating = false;
+    let gameOver = false;
+    let currentPixelSize = PIXEL_SIZES[0];
+    let currentAnswers = [];
+    let currentCorrectIndex = 0;
+    let animGen = 0;
+
+    let fullSchedule = {};   // entire schedule.json
+    let currentDateKey = ''; // date key of active puzzle
+    let isArchive = false;   // true when playing a past puzzle
+
+    // ─── Date helpers ─────────────────────────────────────────────────────────
+
+    function todayKey() {
+      const d = new Date();
+      return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+    }
+
+    function formatDate(key) {
+      const [y, m, d] = key.split('-').map(Number);
+      return new Date(y, m-1, d).toLocaleDateString('en-US', {
+        month: 'long', day: 'numeric', year: 'numeric'
+      });
+    }
+
+    // ─── localStorage ─────────────────────────────────────────────────────────
+
+    function storageKey(dateKey, archive) {
+      return archive ? `pixels-archive-${dateKey}` : `pixels-${dateKey}`;
+    }
+
+    function saveState(wrongIndices, won, lost) {
+      localStorage.setItem(storageKey(currentDateKey, isArchive),
+        JSON.stringify({ wrongIndices, won, lost }));
+    }
+
+    function loadState(dateKey, archive) {
+      try { return JSON.parse(localStorage.getItem(storageKey(dateKey, archive))); }
+      catch { return null; }
+    }
+
+    function hasPlayed(dateKey) {
+      const s = loadState(dateKey, true);
+      return s && (s.won || s.lost);
+    }
+
+    // ─── Shuffle ──────────────────────────────────────────────────────────────
+
+    function shuffle(arr) {
+      for (let i = arr.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [arr[i], arr[j]] = [arr[j], arr[i]];
+      }
+    }
+
+    // ─── Rendering ────────────────────────────────────────────────────────────
+
+    function draw(pixelSize) {
+      const size = canvas.width;
+      ctx.fillStyle = '#000';
+      ctx.fillRect(0, 0, size, size);
+
+      if (pixelSize <= 1) {
+        ctx.imageSmoothingEnabled = true;
+        ctx.drawImage(img, imgX, imgY, imgW, imgH);
+        return;
+      }
+
+      const cols = Math.max(1, Math.ceil(imgW / pixelSize));
+      const rows = Math.max(1, Math.ceil(imgH / pixelSize));
+
+      offCtx.imageSmoothingEnabled = true;
+      offCtx.drawImage(img, 0, 0, cols, rows);
+      ctx.imageSmoothingEnabled = false;
+      ctx.drawImage(offscreen, 0, 0, cols, rows, imgX, imgY, imgW, imgH);
+    }
+
+    // ─── Animation ────────────────────────────────────────────────────────────
+
+    function animateTo(fromSize, toSize, duration, onComplete) {
+      animating = true;
+      const gen = ++animGen;
+      const start = performance.now();
+      (function frame(now) {
+        if (gen !== animGen) return;
+        const t = Math.min((now - start) / duration, 1);
+        const eased = 1 - Math.pow(1 - t, 3);
+        currentPixelSize = fromSize + (toSize - fromSize) * eased;
+        draw(currentPixelSize);
+        if (t < 1) {
+          requestAnimationFrame(frame);
+        } else {
+          currentPixelSize = toSize;
+          draw(toSize);
+          animating = false;
+          onComplete?.();
+        }
+      })(start);
+    }
+
+    // ─── Share ────────────────────────────────────────────────────────────────
+
+    function buildShareText(won) {
+      const guessCount = won ? attempt + 1 : attempt;
+      const score = won ? `${guessCount}/4` : 'X/4';
+
+      let emojis = '';
+      for (let i = 0; i < 4; i++) {
+        if (i < attempt)              emojis += '🟥';
+        else if (i === attempt && won) emojis += '🟩';
+        else                           emojis += '⬜';
+      }
+
+      const label = isArchive ? `Pixels Archive — ${formatDate(currentDateKey)}` : `Pixels — ${formatDate(currentDateKey)}`;
+      const url = window.location.href.split('?')[0];
+      return `${label}\n${score} ${emojis}\n${url}`;
+    }
+
+    shareBtn.addEventListener('click', () => {
+      const won = messageEl.classList.contains('win');
+      const text = buildShareText(won);
+      navigator.clipboard.writeText(text).then(() => {
+        shareFeedback.textContent = 'Copied to clipboard!';
+        setTimeout(() => { shareFeedback.textContent = ''; }, 2500);
+      }).catch(() => {
+        // Fallback: select a temporary textarea
+        const ta = document.createElement('textarea');
+        ta.value = text;
+        ta.style.position = 'fixed'; ta.style.opacity = '0';
+        document.body.appendChild(ta);
+        ta.select();
+        document.execCommand('copy');
+        document.body.removeChild(ta);
+        shareFeedback.textContent = 'Copied!';
+        setTimeout(() => { shareFeedback.textContent = ''; }, 2500);
+      });
+    });
+
+    // ─── Archive ──────────────────────────────────────────────────────────────
+
+    let archiveQueue = [];
+    let archiveQueueIndex = 0;
+
+    function getPastKeys() {
+      const today = todayKey();
+      return Object.keys(fullSchedule).filter(k => k < today);
+    }
+
+    openArchiveBtn.addEventListener('click', () => {
+      const past = getPastKeys();
+      if (past.length === 0) return;
+      archiveQueue = past;
+      shuffle(archiveQueue);
+      archiveQueueIndex = 0;
+      openArchiveBtn.classList.remove('visible');
+      loadArchivePuzzle(archiveQueue[archiveQueueIndex]);
+    });
+
+    nextPuzzleBtn.addEventListener('click', () => {
+      archiveQueueIndex++;
+      nextPuzzleBtn.classList.remove('visible');
+      shareWrap.classList.remove('visible');
+      if (archiveQueueIndex < archiveQueue.length) {
+        loadArchivePuzzle(archiveQueue[archiveQueueIndex]);
+      } else {
+        // Wrap around
+        shuffle(archiveQueue);
+        archiveQueueIndex = 0;
+        loadArchivePuzzle(archiveQueue[archiveQueueIndex]);
+      }
+    });
+
+    function loadArchivePuzzle(key) {
+      const entry = fullSchedule[key];
+      if (!entry) return;
+
+      isArchive = true;
+      currentDateKey = key;
+
+      titleEl.innerHTML = 'Pixels<br><span class="archive-tag">Archive</span>';
+      titleEl.style.marginBottom = '7px';
+      dateEl.textContent = formatDate(key);
+      backBtn.classList.add('visible');
+      shareWrap.classList.remove('visible');
+      nextPuzzleBtn.classList.remove('visible');
+      document.getElementById('canvas-wrap').style.display = '';
+      document.getElementById('attempts-dots').style.display = '';
+      answersEl.style.display = '';
+      noPuzzleEl.style.display = 'none';
+
+      const all = [entry.answer, ...entry.decoys];
+      shuffle(all);
+      currentAnswers = all;
+      currentCorrectIndex = all.indexOf(entry.answer);
+
+      img.src = entry.imageSrc;
+    }
+
+    backBtn.addEventListener('click', () => {
+      isArchive = false;
+      currentDateKey = todayKey();
+      titleEl.textContent = 'Pixels';
+      titleEl.style.marginBottom = '';
+      backBtn.classList.remove('visible');
+      nextPuzzleBtn.classList.remove('visible');
+      dateEl.textContent = formatDate(currentDateKey);
+
+      const entry = fullSchedule[currentDateKey];
+      const all = [entry.answer, ...entry.decoys];
+      shuffle(all);
+      currentAnswers = all;
+      currentCorrectIndex = all.indexOf(entry.answer);
+
+      img.src = entry.imageSrc;
+      const todayState = loadState(currentDateKey, false);
+      if (getPastKeys().length > 0 && todayState && (todayState.won || todayState.lost)) {
+        openArchiveBtn.classList.add('visible');
+      }
+    });
+
+    // ─── Stats ────────────────────────────────────────────────────────────────
+
+    function computeStats() {
+      let played = 0, won = 0, totalGuesses = 0;
+      for (let i = 0; i < localStorage.length; i++) {
+        const key = localStorage.key(i);
+        if (!key.startsWith('pixels-')) continue;
+        try {
+          const state = JSON.parse(localStorage.getItem(key));
+          if (!state || (!state.won && !state.lost)) continue;
+          played++;
+          if (state.won) {
+            won++;
+            totalGuesses += (state.wrongIndices?.length ?? 0) + 1;
+          }
+        } catch {}
+      }
+      return { played, won, totalGuesses };
+    }
+
+    document.getElementById('stats-btn').addEventListener('click', () => {
+      const { played, won, totalGuesses } = computeStats();
+      const pct = played > 0 ? Math.round((won / played) * 100) + '%' : '—';
+      const avg = won > 0 ? (totalGuesses / won).toFixed(1) : '—';
+      document.getElementById('stat-pct').textContent = pct;
+      document.getElementById('stat-fraction').textContent = played > 0 ? `(${won}/${played})` : '';
+      document.getElementById('stat-avg').textContent = avg;
+      document.getElementById('stats-overlay').classList.add('visible');
+    });
+
+    document.getElementById('stats-close').addEventListener('click', () => {
+      document.getElementById('stats-overlay').classList.remove('visible');
+    });
+    document.getElementById('stats-overlay').addEventListener('click', e => {
+      if (e.target === e.currentTarget)
+        document.getElementById('stats-overlay').classList.remove('visible');
+    });
+
+    // ─── UI helpers ───────────────────────────────────────────────────────────
+
+    function buildAnswers() {
+      answersEl.innerHTML = '';
+      currentAnswers.forEach((ans, i) => {
+        const btn = document.createElement('button');
+        btn.className = 'answer-btn';
+        btn.textContent = ans;
+        btn.addEventListener('click', () => handleAnswer(i));
+        answersEl.appendChild(btn);
+      });
+    }
+
+    function updateDots(count) {
+      for (let i = 0; i < 4; i++) {
+        document.getElementById(`dot-${i}`).className = 'dot' + (i < count ? ' used' : '');
+      }
+    }
+
+    function lockAllExcept(keepIndex) {
+      Array.from(answersEl.children).forEach((btn, i) => {
+        if (i !== keepIndex && !btn.classList.contains('wrong')) {
+          btn.disabled = true;
+          btn.classList.add('locked');
+        }
+      });
+    }
+
+    function typewriterHTML(el, html, cls, duration, onComplete) {
+      el.className = cls;
+      const parser = new DOMParser();
+      const doc = parser.parseFromString(`<div>${html}</div>`, 'text/html');
+      const root = doc.body.firstChild;
+      const segs = [];
+      root.childNodes.forEach(node => {
+        if (node.nodeType === 3) {
+          for (const c of node.textContent) segs.push({ t: 'c', v: c });
+        } else if (node.nodeName === 'SPAN') {
+          const s = node.getAttribute('style');
+          for (const c of node.textContent) segs.push({ t: 'c', v: c, s });
+        } else if (node.nodeName === 'BR') {
+          segs.push({ t: 'br' });
+        }
+      });
+      const charCount = segs.filter(s => s.t === 'c').length;
+      const delay = duration / charCount;
+      function build(n) {
+        let out = '', spanOpen = false, spanStyle = null;
+        for (let i = 0; i < n; i++) {
+          const seg = segs[i];
+          if (seg.t === 'br') {
+            if (spanOpen) { out += '</span>'; spanOpen = false; }
+            out += '<br>';
+          } else if (seg.s) {
+            if (!spanOpen || spanStyle !== seg.s) {
+              if (spanOpen) out += '</span>';
+              out += `<span style="${seg.s}">`;
+              spanOpen = true; spanStyle = seg.s;
+            }
+            out += seg.v;
+          } else {
+            if (spanOpen) { out += '</span>'; spanOpen = false; }
+            out += seg.v;
+          }
+        }
+        if (spanOpen) out += '</span>';
+        return out;
+      }
+      let i = 0;
+      function tick() {
+        const content = build(++i);
+        if (i < segs.length) {
+          el.innerHTML = content + '<span class="type-cursor">|</span>';
+          setTimeout(tick, delay);
+        } else {
+          el.innerHTML = content;
+          onComplete?.();
+        }
+      }
+      el.innerHTML = '<span class="type-cursor">|</span>';
+      setTimeout(tick, delay);
+    }
+
+    function winMessage(answer, attempt) {
+      const top = `<span style="color:var(--muted-green-border)">${answer} is correct!</span><br>`;
+      if (attempt === 0) return `${top}First try! Ok, smarty pants.`;
+      if (attempt === 1) return `${top}Two tries ain't too shabby!`;
+      if (attempt === 2) return `${top}Third guess with room to spare!`;
+      return `${top}Fourth attempt, just made it!`;
+    }
+
+    function onGameOver(won, html, cls, animate) {
+      answersEl.style.display = 'none';
+      shareWrap.classList.add('visible');
+      document.getElementById('stats-btn').classList.add('visible');
+      if (isArchive) {
+        nextPuzzleBtn.classList.add('visible');
+      } else if (getPastKeys().length > 0) {
+        openArchiveBtn.classList.add('visible');
+      }
+      if (animate) {
+        const btnsToAnimate = [shareBtn, document.getElementById('stats-btn'),
+          openArchiveBtn, nextPuzzleBtn].filter(b => b.offsetHeight > 0 || b.classList.contains('visible'));
+        btnsToAnimate.forEach(btn => { btn.style.transform = 'scale(0)'; });
+        typewriterHTML(messageEl, html, cls, 1000, () => {
+          btnsToAnimate.forEach((btn, i) => {
+            btn.style.transform = '';
+            btn.style.animation = `btn-pop 1s cubic-bezier(0.22, 1, 0.36, 1) ${i * 0.15}s both`;
+          });
+        });
+      } else {
+        messageEl.innerHTML = html;
+        messageEl.className = cls;
+      }
+    }
+
+    // ─── Game logic ───────────────────────────────────────────────────────────
+
+    function handleAnswer(index) {
+      if (gameOver || animating) return;
+      const btn = answersEl.children[index];
+
+      if (index === currentCorrectIndex) {
+        btn.classList.add('correct');
+        btn.disabled = true;
+        gameOver = true;
+        lockAllExcept(index);
+        const winHtml = winMessage(currentAnswers[currentCorrectIndex], attempt);
+        saveState(getWrongIndices(), true, false);
+        animateTo(currentPixelSize, 1, ANIM_DURATION * 1.5, () => onGameOver(true, winHtml, 'win', true));
+      } else {
+        btn.classList.add('wrong');
+        btn.disabled = true;
+        attempt++;
+        updateDots(attempt);
+
+        if (attempt >= PIXEL_SIZES.length) {
+          gameOver = true;
+          lockAllExcept(-1);
+          const correct = currentAnswers[currentCorrectIndex];
+          const loseHtml = `<span style="color:var(--muted-red-border)">The correct answer is ${correct}.</span><br>Better luck next time, friend!`;
+          saveState(getWrongIndices(), false, true);
+          animateTo(currentPixelSize, 1, ANIM_DURATION * 2, () => onGameOver(false, loseHtml, 'lose', true));
+        } else {
+          saveState(getWrongIndices(), false, false);
+          animateTo(currentPixelSize, PIXEL_SIZES[attempt], ANIM_DURATION);
+        }
+      }
+    }
+
+    function getWrongIndices() {
+      return Array.from(answersEl.children)
+        .map((btn, i) => btn.classList.contains('wrong') ? i : -1)
+        .filter(i => i >= 0);
+    }
+
+    // ─── Restore completed game from localStorage ──────────────────────────────
+
+    function restoreGame(state) {
+      gameOver = true;
+      attempt = state.wrongIndices.length;
+      updateDots(attempt);
+      buildAnswers();
+
+      state.wrongIndices.forEach(i => {
+        const btn = answersEl.children[i];
+        if (btn) { btn.classList.add('wrong'); btn.disabled = true; }
+      });
+
+      if (state.won) {
+        answersEl.children[currentCorrectIndex].classList.add('correct');
+        answersEl.children[currentCorrectIndex].disabled = true;
+        lockAllExcept(currentCorrectIndex);
+        const winHtml = winMessage(currentAnswers[currentCorrectIndex], attempt);
+        draw(1);
+        onGameOver(true, winHtml, 'win', false);
+      } else if (state.lost) {
+        lockAllExcept(-1);
+        const correct = currentAnswers[currentCorrectIndex];
+        const loseHtml = `<span style="color:var(--muted-red-border)">The correct answer is ${correct}.</span><br>Better luck next time, friend!`;
+        draw(1);
+        onGameOver(false, loseHtml, 'lose', false);
+      } else {
+        // In-progress — restore mid-game
+        Array.from(answersEl.children).forEach((btn, i) => {
+          if (!btn.classList.contains('wrong')) {
+            btn.disabled = false;
+            btn.classList.remove('locked');
+            btn.addEventListener('click', () => handleAnswer(i));
+          }
+        });
+        gameOver = false;
+        currentPixelSize = PIXEL_SIZES[attempt];
+        draw(currentPixelSize);
+      }
+    }
+
+    // ─── Init ─────────────────────────────────────────────────────────────────
+
+    function init() {
+      animGen++;
+      attempt = 0;
+      gameOver = false;
+      animating = false;
+      currentPixelSize = PIXEL_SIZES[0];
+      messageEl.textContent = '';
+      messageEl.className = '';
+      answersEl.style.display = '';
+      shareWrap.classList.remove('visible');
+      document.getElementById('stats-btn').classList.remove('visible');
+      shareFeedback.textContent = '';
+      Array.from([shareBtn, document.getElementById('stats-btn'), openArchiveBtn, nextPuzzleBtn])
+        .forEach(btn => { btn.style.animation = ''; btn.style.transform = ''; });
+      updateDots(0);
+
+      const state = loadState(currentDateKey, isArchive);
+      if (state) {
+        restoreGame(state);
+      } else {
+        buildAnswers();
+        draw(currentPixelSize);
+      }
+    }
+
+    // ─── Tutorial ─────────────────────────────────────────────────────────────
+
+    (function() {
+      if (!localStorage.getItem('pixels-tutorial-seen')) {
+        document.getElementById('tutorial-overlay').classList.add('visible');
+      }
+      document.getElementById('tutorial-close').addEventListener('click', () => {
+        document.getElementById('tutorial-overlay').classList.remove('visible');
+        localStorage.setItem('pixels-tutorial-seen', '1');
+      });
+      document.getElementById('tutorial-overlay').addEventListener('click', e => {
+        if (e.target === e.currentTarget) {
+          document.getElementById('tutorial-overlay').classList.remove('visible');
+          localStorage.setItem('pixels-tutorial-seen', '1');
+        }
+      });
+    })();
+
+    img.onload = () => {
+      const size = 512;
+      canvas.width  = size;
+      canvas.height = size;
+
+      const scale = Math.min(size / img.naturalWidth, size / img.naturalHeight);
+      imgW = Math.round(img.naturalWidth  * scale);
+      imgH = Math.round(img.naturalHeight * scale);
+      imgX = Math.round((size - imgW) / 2);
+      imgY = Math.round((size - imgH) / 2);
+
+      offscreen.width  = imgW;
+      offscreen.height = imgH;
+
+      init();
+    };
+
+    // ─── Bootstrap ────────────────────────────────────────────────────────────
+
+    fetch('schedule.json')
+      .then(r => r.json())
+      .then(schedule => {
+        fullSchedule = schedule;
+
+        const key = todayKey();
+        currentDateKey = key;
+        dateEl.textContent = formatDate(key);
+
+        const entry = schedule[key];
+        if (!entry) {
+          noPuzzleEl.style.display = 'block';
+          document.getElementById('attempts-dots').style.display = 'none';
+          document.getElementById('canvas-wrap').style.display = 'none';
+          if (getPastKeys().length > 0) {
+            shareWrap.classList.add('visible');
+            openArchiveBtn.classList.add('visible');
+          }
+        } else {
+          const all = [entry.answer, ...entry.decoys];
+          shuffle(all);
+          currentAnswers = all;
+          currentCorrectIndex = all.indexOf(entry.answer);
+          img.src = entry.imageSrc;
+        }
+
+        const todayState = loadState(key, false);
+        if (getPastKeys().length > 0 && todayState && (todayState.won || todayState.lost)) {
+          openArchiveBtn.classList.add('visible');
+        }
+      })
+      .catch(() => {
+        messageEl.textContent = 'Could not load schedule.';
+      });
+  </script>
+</body>
+</html>

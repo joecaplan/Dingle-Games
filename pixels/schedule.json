@@ -1,0 +1,127 @@
+{
+  "2026-02-26": {
+    "imageSrc": "images/truck.jpg",
+    "answer": "Truck",
+    "decoys": ["Scooter", "Motorcycle", "Bus", "Train", "Airplane", "Helicopter", "Boat", "Bicycle", "Van"]
+  },
+  "2026-02-27": {
+    "imageSrc": "images/puppy.jpg",
+    "answer": "Puppy",
+    "decoys": ["Kitten", "Rabbit", "Hamster", "Goldfish", "Parrot", "Turtle", "Fox", "Bear Cub", "Piglet"]
+  },
+  "2026-02-28": {
+    "imageSrc": "images/pizza.jpg",
+    "answer": "Pizza",
+    "decoys": ["Burger", "Pasta", "Sushi", "Taco", "Sandwich", "Salad", "Steak", "Soup", "Hotdog"]
+  },
+  "2026-03-01": {
+    "imageSrc": "images/peacock.jpg",
+    "answer": "Peacock",
+    "decoys": ["Parrot", "Flamingo", "Toucan", "Eagle", "Hummingbird", "Swan", "Crane", "Penguin", "Pheasant"]
+  },
+  "2026-03-02": {
+    "imageSrc": "images/jellyfish.jpg",
+    "answer": "Jellyfish",
+    "decoys": ["Octopus", "Squid", "Seahorse", "Starfish", "Coral", "Stingray", "Shark", "Whale", "Crab"]
+  },
+  "2026-03-03": {
+    "imageSrc": "images/flower.jpg",
+    "answer": "Flower",
+    "decoys": ["Butterfly", "Bee", "Vase", "Mushroom", "Farm", "Tomato", "Greenhouse", "Hummingbird", "Watering Can"]
+  },
+  "2026-03-04": {
+    "imageSrc": "images/astronaut.jpg",
+    "answer": "Astronaut",
+    "decoys": ["Rocket", "Satellite", "Space Station", "Star", "Planet", "Comet", "Telescope", "Meteor", "Galaxy"]
+  },
+  "2026-03-05": {
+    "imageSrc": "images/beach.jpg",
+    "answer": "Beach",
+    "decoys": ["Fish", "Surfboard", "Sandcastle", "Lighthouse", "Sailboat", "Coral Reef", "Shark", "Seagull", "Umbrella"]
+  },
+  "2026-03-06": {
+    "imageSrc": "images/beer.jpg",
+    "answer": "Beer",
+    "decoys": ["Wine", "Cocktail", "Coffee", "Soda", "Juice", "Whiskey", "Champagne", "Tea", "Cider"]
+  },
+  "2026-03-07": {
+    "imageSrc": "images/campfire.jpg",
+    "answer": "Campfire",
+    "decoys": ["Tent", "Lantern", "Candle", "Fireplace", "Torch", "Cigarette", "Sunset", "Volcano", "Guitar"]
+  },
+  "2026-03-08": {
+    "imageSrc": "images/0308_Balloon.jpg",
+    "answer": "Hot Air Balloon",
+    "decoys": ["Tent", "Sasquach", "Jelly Beans", "Circus", "Frisbee", "Seattle", "Tablecloth", "Ren Faire", "Markers"]
+  },
+  "2026-03-09": {
+    "imageSrc": "images/0309_Waterfall.jpg",
+    "answer": "Waterfall",
+    "decoys": ["Sprinkler", "Water Fountain", "Spring", "Lake Michigan", "Faucet", "Rain", "Hose", "Iceburg", "Snowball"]
+  },
+  "2026-03-10": {
+    "imageSrc": "images/0310_Popcorn.jpg",
+    "answer": "Popcorn",
+    "decoys": ["Peanuts", "Cotton Candy", "Funnel Cake", "Candy", "Turkey Leg", "Deep Fried Oreos", "Nachos", "Hotdog", "Okonomiyaki"]
+  },
+  "2026-03-11": {
+    "imageSrc": "images/0311_Iguana.jpg",
+    "answer": "Iguana",
+    "decoys": ["Alien", "Parrot", "Money", "Grass", "Starbucks", "Stoplight", "Cactus", "Four-leaf Clover", "Broccoli"]
+  },
+   "2026-03-12": {
+    "imageSrc": "images/0312_Pencils.jpg",
+    "answer": "Pencils",
+    "decoys": ["Pebbles", "Coffee Beans", "Twigs", "Chopsticks", "Fingers", "Chicken Fingers", "Daggers", "Dookies", "Stickbugs"]
+  },
+  "2026-03-28": {
+    "imageSrc": "images/0328_FishTail.jpg",
+    "answer": "Fish Tail",
+    "decoys": ["Whale Tail", "Dog Tail", "Cat Tail", "Human Tail", "Dolphin Tail", "Lion Tail", "Beaver Tail", "Elephant Tail", "Mermaid Tail"]
+  },
+  "2026-03-29": {
+    "imageSrc": "images/0329_Colosseum.jpg",
+    "answer": "Colosseum",
+    "decoys": ["Great Wall", "Stonehenge", "Astrodome", "Parthanon", "Taj Mahal", "Eiffel Tower", "Great Pyramids", "Mt. Rushmore", "Golden Palace"]
+  },
+  "2026-03-30": {
+    "imageSrc": "images/0330_Kangaroo.jpg",
+    "answer": "Kangaroos",
+    "decoys": ["Koalas", "Wallabies", "Wombats", "Dingoes", "Emus", "Platypuses", "Tasmanian Devils", "Kookaburras", "Quokkas"]
+  },
+  "2026-03-31": {
+    "imageSrc": "images/0331_Mask.jpg",
+    "answer": "Mask",
+    "decoys": ["Dragon", "Crown", "Sword", "Horse", "Cape", "Spear", "Vehicle", "Cloud", "Astronaut"]
+  },
+  "2026-04-01": {
+    "imageSrc": "images/0401_Hand.jpg",
+    "answer": "Hand",
+    "decoys": ["Foot", "Ear", "Nose", "Elbow", "Knee", "Shoulder", "Neck", "Wrist", "Chin"]
+  },
+  "2026-04-02": {
+    "imageSrc": "images/0402_Candle.jpg",
+    "answer": "Candle",
+    "decoys": ["Torch", "Lantern", "Flashlight", "Lighthouse", "Spotlight", "Ember", "Glow", "Neon", "Sunbeam"]
+  },
+  "2026-04-03": {
+    "imageSrc": "images/0403_Frog.jpg",
+    "answer": "Frog",
+    "decoys": ["Blueberry", "Sapphire", "Ocean", "Bluejay", "Smurf", "Denim", "Blueprint", "Cobalt", "Navy"]
+  },
+  "2026-04-04": {
+    "imageSrc": "images/0404_Lightning.jpg",
+    "answer": "Lightning",
+    "decoys": ["Thunder", "Storm", "Hail", "Tornado", "Lavender", "Violet", "Grape", "Amethyst", "Plum"]
+  },
+  "2026-04-05": {
+    "imageSrc": "images/0405_CoffeeBeans.jpg",
+    "answer": "Coffee Beans",
+    "decoys": ["Chocolate", "Pebbles", "Acorns", "Kidney Beans", "Raisins", "Almonds", "Peanuts", "Soil", "Bark"]
+  },
+  "2026-04-06": {
+    "imageSrc": "images/0406_Squirrel.jpg",
+    "answer": "Squirrel",
+    "decoys": ["Mouse", "Rat", "Hamster", "Gerbil", "Guinea Pig", "Chipmunk", "Beaver", "Vole", "Marmot"]
+  }
+}
